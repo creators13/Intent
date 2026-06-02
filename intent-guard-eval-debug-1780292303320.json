@@ -1,0 +1,3265 @@
+{
+  "exportedAtIso": "2026-06-01T05:38:23.317Z",
+  "evaluationDebug": {
+    "current": {
+      "baselineWriteReason": "strict-pass",
+      "current": {
+        "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+        "title": "Grade 5: Solving Basic Algebra Equations",
+        "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+        "videoId": "P9AFd3hwxiQ"
+      },
+      "emittedAtMs": 1780292284109,
+      "loggedAtIso": "2026-06-01T05:38:04.113Z",
+      "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "pageVideoId": "P9AFd3hwxiQ",
+      "previous": {
+        "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+        "title": "Math Antics - Adding and Subtracting Fractions",
+        "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+        "videoId": "dtnvT4CtJAc"
+      },
+      "reason": "yt-navigate-finish",
+      "runId": 20,
+      "scoreInputs": {
+        "descriptionConfidence": "runtime-high",
+        "descriptionSource": "watch-dom",
+        "intentHash": "ff39d207",
+        "intentTextNormalized": "algebra",
+        "intentTextRaw": "Algebra",
+        "titleSource": "document.title",
+        "videoHash": "d856b014",
+        "videoTextNormalized": "grade 5 solving basic algebra equations this is the most basic of solving algebra equations commonly taught in 5th grade more more transcript follow along using the transcript show transcript show less",
+        "videoTextRaw": "Grade 5: Solving Basic Algebra Equations\nThis is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+      },
+      "semanticLatencyMs": {
+        "embedding": 0,
+        "legacy": 0
+      },
+      "semanticScore": 0.36177626318737083,
+      "semanticScores": {
+        "activeSource": "embedding",
+        "embedding": 0.36177626318737083,
+        "legacy": 0.28867513459481287
+      },
+      "seq": 99,
+      "snapshotOrigin": "local-memory",
+      "sourceStrength": "strong",
+      "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "targetVideoId": "P9AFd3hwxiQ",
+      "thresholds": {
+        "borderlineMin": 0.02,
+        "relevantMin": 0.04
+      },
+      "type": "evaluation-complete",
+      "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "verdict": "relevant",
+      "watcherBootId": "boot-1780292220790-5deu6a"
+    },
+    "lastEvent": {
+      "emittedAtMs": 1780292289217,
+      "loggedAtIso": "2026-06-01T05:38:09.221Z",
+      "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+      "pageVideoId": "dtnvT4CtJAc",
+      "reason": "popstate",
+      "runId": 21,
+      "seq": 114,
+      "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+      "targetVideoId": "dtnvT4CtJAc",
+      "type": "abort-stale-run-after-meta",
+      "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+      "watcherBootId": "boot-1780292220790-5deu6a"
+    },
+    "currentWinner": {
+      "baselineWriteReason": "strict-pass",
+      "current": {
+        "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+        "title": "Grade 5: Solving Basic Algebra Equations",
+        "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+        "videoId": "P9AFd3hwxiQ"
+      },
+      "emittedAtMs": 1780292284109,
+      "loggedAtIso": "2026-06-01T05:38:04.113Z",
+      "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "pageVideoId": "P9AFd3hwxiQ",
+      "previous": {
+        "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+        "title": "Math Antics - Adding and Subtracting Fractions",
+        "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+        "videoId": "dtnvT4CtJAc"
+      },
+      "reason": "yt-navigate-finish",
+      "runId": 20,
+      "scoreInputs": {
+        "descriptionConfidence": "runtime-high",
+        "descriptionSource": "watch-dom",
+        "intentHash": "ff39d207",
+        "intentTextNormalized": "algebra",
+        "intentTextRaw": "Algebra",
+        "titleSource": "document.title",
+        "videoHash": "d856b014",
+        "videoTextNormalized": "grade 5 solving basic algebra equations this is the most basic of solving algebra equations commonly taught in 5th grade more more transcript follow along using the transcript show transcript show less",
+        "videoTextRaw": "Grade 5: Solving Basic Algebra Equations\nThis is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+      },
+      "semanticLatencyMs": {
+        "embedding": 0,
+        "legacy": 0
+      },
+      "semanticScore": 0.36177626318737083,
+      "semanticScores": {
+        "activeSource": "embedding",
+        "embedding": 0.36177626318737083,
+        "legacy": 0.28867513459481287
+      },
+      "seq": 99,
+      "snapshotOrigin": "local-memory",
+      "sourceStrength": "strong",
+      "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "targetVideoId": "P9AFd3hwxiQ",
+      "thresholds": {
+        "borderlineMin": 0.02,
+        "relevantMin": 0.04
+      },
+      "type": "evaluation-complete",
+      "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+      "verdict": "relevant",
+      "watcherBootId": "boot-1780292220790-5deu6a"
+    },
+    "logsByUrl": {
+      "https://www.youtube.com/": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780292215254,
+          "gateStartMs": 1780292215254,
+          "loggedAtIso": "2026-06-01T05:36:55.258Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "snapshotOrigin": "none",
+          "targetUrl": "https://www.youtube.com/",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/",
+          "watcherBootId": "boot-1780292215045-ceq7nn"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780292216464,
+          "gateStartMs": 1780292216464,
+          "loggedAtIso": "2026-06-01T05:36:56.469Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 4,
+          "snapshotOrigin": "none",
+          "targetUrl": "https://www.youtube.com/",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/",
+          "watcherBootId": "boot-1780292215045-ceq7nn"
+        }
+      ],
+      "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780292220824,
+          "gateStartMs": 1780292220824,
+          "loggedAtIso": "2026-06-01T05:37:00.827Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "snapshotOrigin": "none",
+          "targetUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.": [
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780292222279,
+          "gateStartMs": 1780292222279,
+          "loggedAtIso": "2026-06-01T05:37:02.282Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 4,
+          "snapshotOrigin": "none",
+          "targetUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s": [
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780292245920,
+          "gateStartMs": 1780292245920,
+          "loggedAtIso": "2026-06-01T05:37:25.924Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 19,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292245961,
+          "loggedAtIso": "2026-06-01T05:37:25.968Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 20,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Add Fractions\n    Add Fractions\n    0:10\n  \n\n\n  \n    Add Fractions\n  \n  0:10\n\n\n\n\n  \n    \n    \n  \n  \n    Trick\n    Trick\n    1:35\n  \n\n\n  \n    Trick\n  \n  1:35\n\n\n\n\n  \n    \n    \n  \n  \n    Same Bottom Numbers\n    Same Bottom Numbers\n    1:47\n  \n\n\n  \n    Same Bottom Numbers\n  \n  1:47\n\n\n\n\n  \n    \n    \n  \n  \n    Subtracting Fractions\n    Subtracting Fractions\n    2:41\n  \n\n\n  \n    Subtracting Fractions\n  \n  2:41\n\n\n\n\n  \n    \n    \n  \n  \n    Change\n    Change\n    3:46\n  \n\n\n  \n    Change\n  \n  3:46\n\n\n\n\n  \n    \n    \n  \n  \n    Common\n    Common\n    3:57\n  \n\n\n  \n    Common\n  \n  3:57\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292246250,
+          "loggedAtIso": "2026-06-01T05:37:26.255Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 21,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292246266,
+          "loggedAtIso": "2026-06-01T05:37:26.269Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 22,
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292246296,
+          "loggedAtIso": "2026-06-01T05:37:26.300Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "b6124231",
+            "videoTextNormalized": "math antics adding and subtracting fractions learn more at mathantics com visit for more free math videos and addition more more key moments view all add fractions add fractions 0 10 add fractions 0 10 trick trick 1 35 trick 1 35 same bottom numbers same bottom numbers 1 47 same bottom numbers 1 47 subtracting fractions subtracting fractions 2 41 subtracting fractions 2 41 change change 3 46 change 3 46 common common 3 57 common 3 57 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Math Antics - Adding and Subtracting Fractions\nLearn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.06016895206882797,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.06016895206882797,
+            "legacy": 0.11585688927269845
+          },
+          "seq": 23,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 12,
+          "emittedAtMs": 1780292267665,
+          "gateStartMs": 1780292267665,
+          "loggedAtIso": "2026-06-01T05:37:47.669Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 12,
+          "seq": 59,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292267713,
+          "loggedAtIso": "2026-06-01T05:37:47.717Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "popstate",
+          "runId": 12,
+          "seq": 60,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292268001,
+          "loggedAtIso": "2026-06-01T05:37:48.005Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "popstate",
+          "runId": 12,
+          "seq": 61,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292268017,
+          "loggedAtIso": "2026-06-01T05:37:48.021Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 12,
+          "seq": 62,
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292268050,
+          "loggedAtIso": "2026-06-01T05:37:48.054Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 12,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "a413effd",
+            "videoTextNormalized": "equations for kids solving equations with addition and subtraction math for kids educational video for children that talks about what equations are and how to solve them an equation is a mathematical statement that shows that tw more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids\nEducational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.04465749451302803,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.04465749451302803,
+            "legacy": 0.13130643285972252
+          },
+          "seq": 63,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 13,
+          "emittedAtMs": 1780292268528,
+          "gateStartMs": 1780292268528,
+          "loggedAtIso": "2026-06-01T05:37:48.532Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 13,
+          "seq": 65,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 848
+          },
+          "coordinatorId": 13,
+          "emittedAtMs": 1780292268559,
+          "loggedAtIso": "2026-06-01T05:37:48.564Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "yt-navigate-finish",
+          "runId": 13,
+          "seq": 66,
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 16,
+          "emittedAtMs": 1780292275665,
+          "gateStartMs": 1780292275665,
+          "loggedAtIso": "2026-06-01T05:37:55.669Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 16,
+          "seq": 77,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292275692,
+          "loggedAtIso": "2026-06-01T05:37:55.696Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "popstate",
+          "runId": 16,
+          "seq": 78,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292275976,
+          "loggedAtIso": "2026-06-01T05:37:55.986Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "popstate",
+          "runId": 16,
+          "seq": 79,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292276015,
+          "loggedAtIso": "2026-06-01T05:37:56.020Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 16,
+          "seq": 80,
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+            "videoId": "5juto2ze8Lg"
+          },
+          "emittedAtMs": 1780292276059,
+          "loggedAtIso": "2026-06-01T05:37:56.063Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "popstate",
+          "runId": 16,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "a413effd",
+            "videoTextNormalized": "equations for kids solving equations with addition and subtraction math for kids educational video for children that talks about what equations are and how to solve them an equation is a mathematical statement that shows that tw more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids\nEducational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.04465749451302803,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.04465749451302803,
+            "legacy": 0.13130643285972252
+          },
+          "seq": 81,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 17,
+          "emittedAtMs": 1780292276858,
+          "gateStartMs": 1780292276858,
+          "loggedAtIso": "2026-06-01T05:37:56.863Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 17,
+          "seq": 83,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 1207
+          },
+          "coordinatorId": 17,
+          "emittedAtMs": 1780292276898,
+          "loggedAtIso": "2026-06-01T05:37:56.903Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "reason": "yt-navigate-finish",
+          "runId": 17,
+          "seq": 84,
+          "targetUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "targetVideoId": "5juto2ze8Lg",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "https://www.youtube.com/watch?v=P9AFd3hwxiQ": [
+        {
+          "coordinatorId": 20,
+          "emittedAtMs": 1780292283732,
+          "gateStartMs": 1780292283732,
+          "loggedAtIso": "2026-06-01T05:38:03.736Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 20,
+          "seq": 95,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n      ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "emittedAtMs": 1780292283774,
+          "loggedAtIso": "2026-06-01T05:38:03.778Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "reason": "yt-navigate-finish",
+          "runId": 20,
+          "seq": 96,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "targetVideoId": "P9AFd3hwxiQ",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "emittedAtMs": 1780292284055,
+          "loggedAtIso": "2026-06-01T05:38:04.060Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "reason": "yt-navigate-finish",
+          "runId": 20,
+          "seq": 97,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "targetVideoId": "P9AFd3hwxiQ",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "emittedAtMs": 1780292284075,
+          "loggedAtIso": "2026-06-01T05:38:04.079Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 20,
+          "seq": 98,
+          "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "targetVideoId": "P9AFd3hwxiQ",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "emittedAtMs": 1780292284109,
+          "loggedAtIso": "2026-06-01T05:38:04.113Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 20,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "d856b014",
+            "videoTextNormalized": "grade 5 solving basic algebra equations this is the most basic of solving algebra equations commonly taught in 5th grade more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Grade 5: Solving Basic Algebra Equations\nThis is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.36177626318737083,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.36177626318737083,
+            "legacy": 0.28867513459481287
+          },
+          "seq": 99,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "targetVideoId": "P9AFd3hwxiQ",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "https://www.youtube.com/watch?v=dtnvT4CtJAc": [
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780292231661,
+          "gateStartMs": 1780292231661,
+          "loggedAtIso": "2026-06-01T05:37:11.665Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 12,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292231684,
+          "loggedAtIso": "2026-06-01T05:37:11.688Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 13,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "attempt": 1,
+            "descriptionReady": true,
+            "genericDescription": false,
+            "notReadyReason": "",
+            "objectIdMatches": true,
+            "titleReady": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292231955,
+          "loggedAtIso": "2026-06-01T05:37:11.959Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 14,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-progress",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292232332,
+          "loggedAtIso": "2026-06-01T05:37:12.341Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 15,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292232359,
+          "loggedAtIso": "2026-06-01T05:37:12.364Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 16,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292232391,
+          "loggedAtIso": "2026-06-01T05:37:12.395Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "a413effd",
+            "videoTextNormalized": "equations for kids solving equations with addition and subtraction math for kids educational video for children that talks about what equations are and how to solve them an equation is a mathematical statement that shows that tw more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids\nEducational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.04465749451302803,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.04465749451302803,
+            "legacy": 0.13130643285972252
+          },
+          "seq": 17,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780292249843,
+          "gateStartMs": 1780292249843,
+          "loggedAtIso": "2026-06-01T05:37:29.846Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 25,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292249883,
+          "loggedAtIso": "2026-06-01T05:37:29.886Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 26,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Add Fractions\n    Add Fractions\n    0:10\n  \n\n\n  \n    Add Fractions\n  \n  0:10\n\n\n\n\n  \n    \n    \n  \n  \n    Trick\n    Trick\n    1:35\n  \n\n\n  \n    Trick\n  \n  1:35\n\n\n\n\n  \n    \n    \n  \n  \n    Same Bottom Numbers\n    Same Bottom Numbers\n    1:47\n  \n\n\n  \n    Same Bottom Numbers\n  \n  1:47\n\n\n\n\n  \n    \n    \n  \n  \n    Subtracting Fractions\n    Subtracting Fractions\n    2:41\n  \n\n\n  \n    Subtracting Fractions\n  \n  2:41\n\n\n\n\n  \n    \n    \n  \n  \n    Change\n    Change\n    3:46\n  \n\n\n  \n    Change\n  \n  3:46\n\n\n\n\n  \n    \n    \n  \n  \n    Common\n    Common\n    3:57\n  \n\n\n  \n    Common\n  \n  3:57\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250162,
+          "loggedAtIso": "2026-06-01T05:37:30.166Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 27,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250177,
+          "loggedAtIso": "2026-06-01T05:37:30.180Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 28,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250362,
+          "loggedAtIso": "2026-06-01T05:37:30.366Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 29,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Add Fractions\n    Add Fractions\n    0:10\n  \n\n\n  \n    Add Fractions\n  \n  0:10\n\n\n\n\n  \n    \n    \n  \n  \n    Trick\n    Trick\n    1:35\n  \n\n\n  \n    Trick\n  \n  1:35\n\n\n\n\n  \n    \n    \n  \n  \n    Same Bottom Numbers\n    Same Bottom Numbers\n    1:47\n  \n\n\n  \n    Same Bottom Numbers\n  \n  1:47\n\n\n\n\n  \n    \n    \n  \n  \n    Subtracting Fractions\n    Subtracting Fractions\n    2:41\n  \n\n\n  \n    Subtracting Fractions\n  \n  2:41\n\n\n\n\n  \n    \n    \n  \n  \n    Change\n    Change\n    3:46\n  \n\n\n  \n    Change\n  \n  3:46\n\n\n\n\n  \n    \n    \n  \n  \n    Common\n    Common\n    3:57\n  \n\n\n  \n    Common\n  \n  3:57\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250629,
+          "loggedAtIso": "2026-06-01T05:37:30.634Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 30,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250647,
+          "loggedAtIso": "2026-06-01T05:37:30.651Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 31,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292250877,
+          "loggedAtIso": "2026-06-01T05:37:30.881Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 33,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780292250948,
+          "gateStartMs": 1780292250948,
+          "loggedAtIso": "2026-06-01T05:37:30.952Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 7,
+          "seq": 34,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 1099
+          },
+          "coordinatorId": 7,
+          "emittedAtMs": 1780292250980,
+          "loggedAtIso": "2026-06-01T05:37:30.984Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 7,
+          "seq": 35,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "attempt": 1,
+            "descriptionReady": true,
+            "genericDescription": false,
+            "notReadyReason": "",
+            "objectIdMatches": true,
+            "titleReady": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292251176,
+          "loggedAtIso": "2026-06-01T05:37:31.180Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 36,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-progress",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292251555,
+          "loggedAtIso": "2026-06-01T05:37:31.561Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 37,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292251576,
+          "loggedAtIso": "2026-06-01T05:37:31.582Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 38,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "emittedAtMs": 1780292251593,
+          "loggedAtIso": "2026-06-01T05:37:31.597Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 6,
+          "seq": 39,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "abort-stale-run-after-meta",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 10,
+          "emittedAtMs": 1780292264425,
+          "gateStartMs": 1780292264425,
+          "loggedAtIso": "2026-06-01T05:37:44.429Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 10,
+          "seq": 50,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key momen",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292264450,
+          "loggedAtIso": "2026-06-01T05:37:44.454Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 10,
+          "seq": 51,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    add 8 to both sides\n    add 8 to both sides\n    2:28\n  \n\n\n  \n    add 8 to both sides\n  \n  2:28\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by a negative sign\n    multiply both sides by a negative sign\n    3:36\n  \n\n\n  \n    multiply both sides by a negative sign\n  \n  3:36\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by 4\n    multiply both sides by 4\n    6:36\n  \n\n\n  \n    multiply both sides by 4\n  \n  6:36\n\n\n\n\n  \n    \n    \n  \n  \n    add 3 to both sides\n    add 3 to both sides\n    10:42\n  \n\n\n  \n    add 3 to both sides\n  \n  10:42\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292264734,
+          "loggedAtIso": "2026-06-01T05:37:44.738Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 10,
+          "seq": 52,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292264750,
+          "loggedAtIso": "2026-06-01T05:37:44.753Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 10,
+          "seq": 53,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292264782,
+          "loggedAtIso": "2026-06-01T05:37:44.786Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 10,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "d04467bc",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples includ more more key moments view all add 8 to both sides add 8 to both sides 2 28 add 8 to both sides 2 28 multiply both sides by a negative sign multiply both sides by a negative sign 3 36 multiply both sides by a negative sign 3 36 multiply both sides by 4 multiply both sides by 4 6 36 multiply both sides by 4 6 36 add 3 to both sides add 3 to both sides 10 42 add 3 to both sides 10 42 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.10958331657243388,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.10958331657243388,
+            "legacy": 0.08574929257125442
+          },
+          "seq": 54,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 11,
+          "emittedAtMs": 1780292265361,
+          "gateStartMs": 1780292265361,
+          "loggedAtIso": "2026-06-01T05:37:45.365Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 11,
+          "seq": 56,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 946
+          },
+          "coordinatorId": 11,
+          "emittedAtMs": 1780292265395,
+          "loggedAtIso": "2026-06-01T05:37:45.399Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 11,
+          "seq": 57,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 14,
+          "emittedAtMs": 1780292271806,
+          "gateStartMs": 1780292271806,
+          "loggedAtIso": "2026-06-01T05:37:51.810Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 14,
+          "seq": 68,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292271862,
+          "loggedAtIso": "2026-06-01T05:37:51.866Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 14,
+          "seq": 69,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Add Fractions\n    Add Fractions\n    0:10\n  \n\n\n  \n    Add Fractions\n  \n  0:10\n\n\n\n\n  \n    \n    \n  \n  \n    Trick\n    Trick\n    1:35\n  \n\n\n  \n    Trick\n  \n  1:35\n\n\n\n\n  \n    \n    \n  \n  \n    Same Bottom Numbers\n    Same Bottom Numbers\n    1:47\n  \n\n\n  \n    Same Bottom Numbers\n  \n  1:47\n\n\n\n\n  \n    \n    \n  \n  \n    Subtracting Fractions\n    Subtracting Fractions\n    2:41\n  \n\n\n  \n    Subtracting Fractions\n  \n  2:41\n\n\n\n\n  \n    \n    \n  \n  \n    Change\n    Change\n    3:46\n  \n\n\n  \n    Change\n  \n  3:46\n\n\n\n\n  \n    \n    \n  \n  \n    Common\n    Common\n    3:57\n  \n\n\n  \n    Common\n  \n  3:57\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292272151,
+          "loggedAtIso": "2026-06-01T05:37:52.155Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 14,
+          "seq": 70,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292272173,
+          "loggedAtIso": "2026-06-01T05:37:52.177Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 14,
+          "seq": 71,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292272207,
+          "loggedAtIso": "2026-06-01T05:37:52.211Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 14,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "b6124231",
+            "videoTextNormalized": "math antics adding and subtracting fractions learn more at mathantics com visit for more free math videos and addition more more key moments view all add fractions add fractions 0 10 add fractions 0 10 trick trick 1 35 trick 1 35 same bottom numbers same bottom numbers 1 47 same bottom numbers 1 47 subtracting fractions subtracting fractions 2 41 subtracting fractions 2 41 change change 3 46 change 3 46 common common 3 57 common 3 57 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Math Antics - Adding and Subtracting Fractions\nLearn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.06016895206882797,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.06016895206882797,
+            "legacy": 0.11585688927269845
+          },
+          "seq": 72,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 15,
+          "emittedAtMs": 1780292272961,
+          "gateStartMs": 1780292272961,
+          "loggedAtIso": "2026-06-01T05:37:52.966Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 15,
+          "seq": 74,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 1137
+          },
+          "coordinatorId": 15,
+          "emittedAtMs": 1780292272997,
+          "loggedAtIso": "2026-06-01T05:37:53.002Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 15,
+          "seq": 75,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 18,
+          "emittedAtMs": 1780292280250,
+          "gateStartMs": 1780292280250,
+          "loggedAtIso": "2026-06-01T05:38:00.254Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 18,
+          "seq": 86,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292280300,
+          "loggedAtIso": "2026-06-01T05:38:00.305Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 18,
+          "seq": 87,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Learn More at mathantics.com\nVisit http://www.mathantics.com for more Free math videos and addition …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    Add Fractions\n    Add Fractions\n    0:10\n  \n\n\n  \n    Add Fractions\n  \n  0:10\n\n\n\n\n  \n    \n    \n  \n  \n    Trick\n    Trick\n    1:35\n  \n\n\n  \n    Trick\n  \n  1:35\n\n\n\n\n  \n    \n    \n  \n  \n    Same Bottom Numbers\n    Same Bottom Numbers\n    1:47\n  \n\n\n  \n    Same Bottom Numbers\n  \n  1:47\n\n\n\n\n  \n    \n    \n  \n  \n    Subtracting Fractions\n    Subtracting Fractions\n    2:41\n  \n\n\n  \n    Subtracting Fractions\n  \n  2:41\n\n\n\n\n  \n    \n    \n  \n  \n    Change\n    Change\n    3:46\n  \n\n\n  \n    Change\n  \n  3:46\n\n\n\n\n  \n    \n    \n  \n  \n    Common\n    Common\n    3:57\n  \n\n\n  \n    Common\n  \n  3:57\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292280587,
+          "loggedAtIso": "2026-06-01T05:38:00.592Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 18,
+          "seq": 88,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292280611,
+          "loggedAtIso": "2026-06-01T05:38:00.616Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 18,
+          "seq": 89,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292280655,
+          "loggedAtIso": "2026-06-01T05:38:00.659Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 18,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "b6124231",
+            "videoTextNormalized": "math antics adding and subtracting fractions learn more at mathantics com visit for more free math videos and addition more more key moments view all add fractions add fractions 0 10 add fractions 0 10 trick trick 1 35 trick 1 35 same bottom numbers same bottom numbers 1 47 same bottom numbers 1 47 subtracting fractions subtracting fractions 2 41 subtracting fractions 2 41 change change 3 46 change 3 46 common common 3 57 common 3 57 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Math Antics - Adding and Subtracting Fractions\nLearn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.06016895206882797,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.06016895206882797,
+            "legacy": 0.11585688927269845
+          },
+          "seq": 90,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 19,
+          "emittedAtMs": 1780292281106,
+          "gateStartMs": 1780292281106,
+          "loggedAtIso": "2026-06-01T05:38:01.111Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 19,
+          "seq": 92,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 843
+          },
+          "coordinatorId": 19,
+          "emittedAtMs": 1780292281142,
+          "loggedAtIso": "2026-06-01T05:38:01.148Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 19,
+          "seq": 93,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 21,
+          "emittedAtMs": 1780292287768,
+          "gateStartMs": 1780292287768,
+          "loggedAtIso": "2026-06-01T05:38:07.772Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 101,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n      ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292287814,
+          "loggedAtIso": "2026-06-01T05:38:07.819Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 102,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288103,
+          "loggedAtIso": "2026-06-01T05:38:08.107Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 103,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288126,
+          "loggedAtIso": "2026-06-01T05:38:08.131Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 104,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Sho"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n      ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288311,
+          "loggedAtIso": "2026-06-01T05:38:08.316Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 105,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "This is the most basic of solving algebra equations.  Commonly taught in 5th Grade. …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288582,
+          "loggedAtIso": "2026-06-01T05:38:08.589Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 106,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288607,
+          "loggedAtIso": "2026-06-01T05:38:08.612Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 107,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292288882,
+          "loggedAtIso": "2026-06-01T05:38:08.887Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 109,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 22,
+          "emittedAtMs": 1780292288948,
+          "gateStartMs": 1780292288948,
+          "loggedAtIso": "2026-06-01T05:38:08.953Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 22,
+          "seq": 110,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 1170
+          },
+          "coordinatorId": 22,
+          "emittedAtMs": 1780292288983,
+          "loggedAtIso": "2026-06-01T05:38:08.988Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "yt-navigate-finish",
+          "runId": 22,
+          "seq": 111,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292289177,
+          "loggedAtIso": "2026-06-01T05:38:09.183Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 112,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+            "videoId": "dtnvT4CtJAc"
+          },
+          "emittedAtMs": 1780292289198,
+          "loggedAtIso": "2026-06-01T05:38:09.203Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "previous": {
+            "description": "This is the most basic of solving algebra equations. Commonly taught in 5th Grade. …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Grade 5: Solving Basic Algebra Equations",
+            "url": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+            "videoId": "P9AFd3hwxiQ"
+          },
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 113,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "emittedAtMs": 1780292289217,
+          "loggedAtIso": "2026-06-01T05:38:09.221Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "reason": "popstate",
+          "runId": 21,
+          "seq": 114,
+          "targetUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "targetVideoId": "dtnvT4CtJAc",
+          "type": "abort-stale-run-after-meta",
+          "urlKey": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "https://www.youtube.com/watch?v=kWOTmyoaWJg": [
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780292224951,
+          "gateStartMs": 1780292224951,
+          "loggedAtIso": "2026-06-01T05:37:04.955Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 6,
+          "snapshotOrigin": "none",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key momen",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292225164,
+          "loggedAtIso": "2026-06-01T05:37:05.167Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 7,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    add 8 to both sides\n    add 8 to both sides\n    2:28\n  \n\n\n  \n    add 8 to both sides\n  \n  2:28\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by a negative sign\n    multiply both sides by a negative sign\n    3:36\n  \n\n\n  \n    multiply both sides by a negative sign\n  \n  3:36\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by 4\n    multiply both sides by 4\n    6:36\n  \n\n\n  \n    multiply both sides by 4\n  \n  6:36\n\n\n\n\n  \n    \n    \n  \n  \n    add 3 to both sides\n    add 3 to both sides\n    10:42\n  \n\n\n  \n    add 3 to both sides\n  \n  10:42\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292225454,
+          "loggedAtIso": "2026-06-01T05:37:05.457Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 8,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "no-previous-strong-source",
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292225466,
+          "loggedAtIso": "2026-06-01T05:37:05.468Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 9,
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "no-previous-strong-source",
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292225489,
+          "loggedAtIso": "2026-06-01T05:37:05.492Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "d04467bc",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples includ more more key moments view all add 8 to both sides add 8 to both sides 2 28 add 8 to both sides 2 28 multiply both sides by a negative sign multiply both sides by a negative sign 3 36 multiply both sides by a negative sign 3 36 multiply both sides by 4 multiply both sides by 4 6 36 multiply both sides by 4 6 36 add 3 to both sides add 3 to both sides 10 42 add 3 to both sides 10 42 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.10958331657243388,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.10958331657243388,
+            "legacy": 0.08574929257125442
+          },
+          "seq": 10,
+          "snapshotOrigin": "none",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 8,
+          "emittedAtMs": 1780292259777,
+          "gateStartMs": 1780292259777,
+          "loggedAtIso": "2026-06-01T05:37:39.781Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 8,
+          "seq": 41,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n             "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along usin",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292259823,
+          "loggedAtIso": "2026-06-01T05:37:39.827Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 8,
+          "seq": 42,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292260104,
+          "loggedAtIso": "2026-06-01T05:37:40.108Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 8,
+          "seq": 43,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "descriptionGraceUsed": false,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292260119,
+          "loggedAtIso": "2026-06-01T05:37:40.123Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 8,
+          "seq": 44,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "baselineWriteReason": "strict-pass",
+          "current": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780292260153,
+          "loggedAtIso": "2026-06-01T05:37:40.157Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Learn More at mathantics.com Visit http://www.mathantics.com for more Free math videos and addition …...more ...more Key moments View all Add Fractions Add Fractions 0:10 Add Fractions 0:10 Trick Trick 1:35 Trick 1:35 Same Bottom Numbers Same Bottom Numbers 1:47 Same Bottom Numbers 1:47 Subtracting Fractions Subtracting Fractions 2:41 Subtracting Fractions 2:41 Change Change 3:46 Change 3:46 Common Common 3:57 Common 3:57 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Math Antics - Adding and Subtracting Fractions",
+            "url": "https://www.youtube.com/watch?v=5juto2ze8Lg",
+            "videoId": "5juto2ze8Lg"
+          },
+          "reason": "popstate",
+          "runId": 8,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "a413effd",
+            "videoTextNormalized": "equations for kids solving equations with addition and subtraction math for kids educational video for children that talks about what equations are and how to solve them an equation is a mathematical statement that shows that tw more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids\nEducational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.04465749451302803,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.04465749451302803,
+            "legacy": 0.13130643285972252
+          },
+          "seq": 45,
+          "snapshotOrigin": "local-memory",
+          "sourceStrength": "strong",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 9,
+          "emittedAtMs": 1780292260927,
+          "gateStartMs": 1780292260927,
+          "loggedAtIso": "2026-06-01T05:37:40.931Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Educational video for children that talks about what equations are and how to solve them. An equation is a mathematical statement that shows that tw …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "EQUATIONS for Kids ​​🚀 Solving Equations with Addition and Subtraction 🪐 Math for Kids",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 9,
+          "seq": 47,
+          "snapshotOrigin": "local-memory",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "checks": {
+            "cooldownMs": 5000,
+            "elapsedSinceLastEval": 1160
+          },
+          "coordinatorId": 9,
+          "emittedAtMs": 1780292260981,
+          "loggedAtIso": "2026-06-01T05:37:40.985Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 9,
+          "seq": 48,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "evaluation-skipped-recent",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ],
+      "unknown-url": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780292215045,
+          "loggedAtIso": "2026-06-01T05:36:55.049Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292215045-ceq7nn"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780292216275,
+          "loggedAtIso": "2026-06-01T05:36:56.279Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 3,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292215045-ceq7nn"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780292220790,
+          "loggedAtIso": "2026-06-01T05:37:00.799Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780292221940,
+          "loggedAtIso": "2026-06-01T05:37:01.944Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 3,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780292224779,
+          "loggedAtIso": "2026-06-01T05:37:04.782Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 5,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780292231490,
+          "loggedAtIso": "2026-06-01T05:37:11.494Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 11,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780292245753,
+          "loggedAtIso": "2026-06-01T05:37:25.757Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 18,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780292249682,
+          "loggedAtIso": "2026-06-01T05:37:29.706Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 24,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780292250777,
+          "loggedAtIso": "2026-06-01T05:37:30.782Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 32,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 8,
+          "emittedAtMs": 1780292259636,
+          "loggedAtIso": "2026-06-01T05:37:39.656Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 40,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 9,
+          "emittedAtMs": 1780292260724,
+          "loggedAtIso": "2026-06-01T05:37:40.728Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 46,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 10,
+          "emittedAtMs": 1780292264282,
+          "loggedAtIso": "2026-06-01T05:37:44.302Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 49,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 11,
+          "emittedAtMs": 1780292265197,
+          "loggedAtIso": "2026-06-01T05:37:45.202Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 55,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 12,
+          "emittedAtMs": 1780292267524,
+          "loggedAtIso": "2026-06-01T05:37:47.535Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 58,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 13,
+          "emittedAtMs": 1780292268338,
+          "loggedAtIso": "2026-06-01T05:37:48.342Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 64,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 14,
+          "emittedAtMs": 1780292271661,
+          "loggedAtIso": "2026-06-01T05:37:51.683Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 67,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 15,
+          "emittedAtMs": 1780292272798,
+          "loggedAtIso": "2026-06-01T05:37:52.803Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 73,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 16,
+          "emittedAtMs": 1780292275523,
+          "loggedAtIso": "2026-06-01T05:37:55.534Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 76,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 17,
+          "emittedAtMs": 1780292276671,
+          "loggedAtIso": "2026-06-01T05:37:56.678Z",
+          "pageUrl": "https://www.youtube.com/watch?v=5juto2ze8Lg&t=11s",
+          "pageVideoId": "5juto2ze8Lg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 82,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 18,
+          "emittedAtMs": 1780292280107,
+          "loggedAtIso": "2026-06-01T05:38:00.123Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 85,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 19,
+          "emittedAtMs": 1780292280951,
+          "loggedAtIso": "2026-06-01T05:38:00.956Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 91,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 20,
+          "emittedAtMs": 1780292283574,
+          "loggedAtIso": "2026-06-01T05:38:03.579Z",
+          "pageUrl": "https://www.youtube.com/watch?v=P9AFd3hwxiQ",
+          "pageVideoId": "P9AFd3hwxiQ",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 94,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 21,
+          "emittedAtMs": 1780292287624,
+          "loggedAtIso": "2026-06-01T05:38:07.646Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 100,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        },
+        {
+          "coordinatorId": 22,
+          "emittedAtMs": 1780292288784,
+          "loggedAtIso": "2026-06-01T05:38:08.791Z",
+          "pageUrl": "https://www.youtube.com/watch?v=dtnvT4CtJAc",
+          "pageVideoId": "dtnvT4CtJAc",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 108,
+          "type": "coord-start",
+          "urlKey": "unknown-url",
+          "watcherBootId": "boot-1780292220790-5deu6a"
+        }
+      ]
+    },
+    "maxEventsPerUrl": 250
+  }
+}

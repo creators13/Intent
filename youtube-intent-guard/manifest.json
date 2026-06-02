@@ -1,0 +1,48 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Intent Guard",
+  "description": "Intentional YouTube sessions for learning and relaxing with boundaries.",
+  "version": "0.2.0",
+  "permissions": ["storage", "tabs", "alarms", "notifications"],
+  "host_permissions": ["https://www.youtube.com/*"],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "YouTube Intent Guard",
+    "default_popup": "ui/popup.html"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": [
+        "storage/schema.js",
+        "rules/relevance-engine.js",
+        "rules/semantic-engine.js",
+        "rules/embedding-engine.js",
+        "content/bge-module-loader.js",
+        "content/youtube-watcher.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "content/youtube-page-bridge.js",
+        "rules/bge-engine.js",
+        "models/*",
+        "models/*/*",
+        "models/*/*/*",
+        "vendor/*"
+      ],
+      "matches": ["https://www.youtube.com/*"]
+    }
+  ]
+}

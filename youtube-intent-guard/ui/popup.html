@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>YouTube Intent Guard</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>YouTube Intent Guard</h1>
+      <section id="status"></section>
+
+      <section class="card">
+        <h2>Start Learn Session</h2>
+        <div class="field">
+          <label for="learn-topic">Topic to learn</label>
+          <input id="learn-topic" placeholder="e.g. Python decorators" />
+        </div>
+        <div class="field">
+          <label for="learn-goal">Goal by end of session</label>
+          <input id="learn-goal" placeholder="e.g. Build and understand one example" />
+        </div>
+        <div class="field">
+          <label for="learn-purpose">What is the purpose of this learning?</label>
+          <textarea id="learn-purpose" placeholder="Short reflection"></textarea>
+        </div>
+        <div class="field">
+          <label for="learn-timing">Is now the appropriate time?</label>
+          <textarea id="learn-timing" placeholder="Short reflection"></textarea>
+        </div>
+        <button id="start-learn">Start Learn Session</button>
+      </section>
+
+      <section class="card">
+        <h2>Start Relax Session</h2>
+        <div class="field">
+          <label for="relax-current">How do I currently feel?</label>
+          <input id="relax-current" placeholder="e.g. Stressed, tired" />
+        </div>
+        <div class="field">
+          <label for="relax-want">How do I want to feel?</label>
+          <input id="relax-want" placeholder="e.g. Calm and refreshed" />
+        </div>
+        <div class="field">
+          <label for="relax-other">What else can help now?</label>
+          <input id="relax-other" placeholder="e.g. Walk, stretch, water" />
+        </div>
+        <div class="field">
+          <label for="relax-tomorrow">What helps me feel good tomorrow?</label>
+          <input id="relax-tomorrow" placeholder="e.g. Sleep by 11pm" />
+        </div>
+        <div class="field">
+          <label for="relax-duration">Session length (minutes)</label>
+          <input id="relax-duration" type="number" min="1" max="240" value="30" />
+        </div>
+        <div class="field">
+          <label for="relax-why">Why this length?</label>
+          <textarea id="relax-why" placeholder="Short reflection"></textarea>
+        </div>
+        <button id="start-relax">Start Relax Session</button>
+      </section>
+
+      <section class="row card actions-card">
+        <button id="end-session" class="secondary">End Session</button>
+        <button id="open-dashboard" class="secondary">Open Dashboard</button>
+      </section>
+
+      <section class="card">
+        <h2>Evaluation Debug</h2>
+        <div class="row debug-actions">
+          <button id="export-debug-logs" class="secondary">Export Debug Logs</button>
+          <button id="clear-debug-logs" class="secondary">Clear Debug Logs</button>
+        </div>
+        <pre id="eval-debug" class="debug-panel">Waiting for evaluation debug data…</pre>
+      </section>
+
+      <section class="card">
+        <h2>Video Evaluation Trace</h2>
+        <div id="video-trace" class="trace-table-wrap">Waiting for evaluations…</div>
+      </section>
+
+      <section class="card">
+        <h2>Evaluation Settings</h2>
+        <div class="field">
+          <label for="reload-wait-seconds">Reload wait (seconds)</label>
+          <input id="reload-wait-seconds" type="number" min="0.5" max="15" step="0.1" value="3" />
+        </div>
+        <div class="field">
+          <label for="meta-timeout-seconds">Metadata timeout (seconds)</label>
+          <input id="meta-timeout-seconds" type="number" min="1" max="15" step="0.1" value="5" />
+        </div>
+        <div class="field">
+          <label for="strictness-slider">Strictness (left = stricter, right = more lenient)</label>
+          <input id="strictness-slider" type="range" min="0" max="100" step="1" value="80" />
+          <div id="strictness-summary" class="settings-note">Relevant cutoff: 0.080 · Borderline cutoff: 0.040</div>
+        </div>
+        <button id="save-eval-settings">Save Evaluation Settings</button>
+      </section>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

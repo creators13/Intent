@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Intent Guard Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Intent Guard Analytics</h1>
+      <div class="grid">
+        <div class="card"><h3>Total Learn Minutes</h3><p id="learn-mins">0</p></div>
+        <div class="card"><h3>Total Relax Minutes</h3><p id="relax-mins">0</p></div>
+        <div class="card"><h3>Learn Sessions</h3><p id="learn-count">0</p></div>
+        <div class="card"><h3>Relax Sessions</h3><p id="relax-count">0</p></div>
+      </div>
+
+      <h2>Semantic Calibration</h2>
+      <div class="card">
+        <p>Current relevant threshold: <strong id="cur-relevant">0.60</strong></p>
+        <p>Current borderline threshold: <strong id="cur-borderline">0.47</strong></p>
+        <p>Calibration samples: <strong id="calibration-samples">0</strong></p>
+        <p id="calibration-reco"></p>
+        <button id="apply-recommendation">Apply Recommended Thresholds</button>
+      </div>
+
+      <h2>Recent Sessions</h2>
+      <ul id="history"></ul>
+    </main>
+    <script src="dashboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,3336 @@
+{
+  "exportedAtIso": "2026-06-01T03:56:48.147Z",
+  "evaluationDebug": {
+    "current": {
+      "current": {
+        "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+        "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+        "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+        "videoId": "kWOTmyoaWJg"
+      },
+      "emittedAtMs": 1780286080419,
+      "loggedAtIso": "2026-06-01T03:54:40.423Z",
+      "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+      "pageVideoId": "kWOTmyoaWJg",
+      "previous": {
+        "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+        "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+        "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+        "videoId": "kWOTmyoaWJg"
+      },
+      "reason": "yt-navigate-finish",
+      "runId": 5,
+      "scoreInputs": {
+        "descriptionConfidence": "runtime-high",
+        "descriptionSource": "meta[name=description]",
+        "intentHash": "ff39d207",
+        "intentTextNormalized": "algebra",
+        "intentTextRaw": "Algebra",
+        "titleSource": "meta[name=title]",
+        "videoHash": "398bbf6",
+        "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+        "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+      },
+      "semanticLatencyMs": {
+        "embedding": 0,
+        "legacy": 0
+      },
+      "semanticScore": 0.012871651192371483,
+      "semanticScores": {
+        "activeSource": "embedding",
+        "embedding": 0.012871651192371483,
+        "legacy": 0
+      },
+      "seq": 18,
+      "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+      "targetVideoId": "kWOTmyoaWJg",
+      "thresholds": {
+        "borderlineMin": 0.02,
+        "relevantMin": 0.04
+      },
+      "type": "evaluation-complete",
+      "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+      "verdict": "irrelevant"
+    },
+    "logsByUrl": {
+      "https://www.youtube.com/": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285844616,
+          "gateStartMs": 1780285844616,
+          "loggedAtIso": "2026-06-01T03:50:44.633Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285845816,
+          "gateStartMs": 1780285845816,
+          "loggedAtIso": "2026-06-01T03:50:45.819Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 4,
+          "targetUrl": "https://www.youtube.com/",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/"
+        }
+      ],
+      "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285850277,
+          "gateStartMs": 1780285850277,
+          "loggedAtIso": "2026-06-01T03:50:50.279Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation."
+        }
+      ],
+      "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.": [
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285851664,
+          "gateStartMs": 1780285851664,
+          "loggedAtIso": "2026-06-01T03:50:51.667Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "pageVideoId": null,
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 4,
+          "targetUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation."
+        }
+      ],
+      "https://www.youtube.com/shorts/NpWiXh_oUfE": [
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780285936414,
+          "gateStartMs": 1780285936414,
+          "loggedAtIso": "2026-06-01T03:52:16.418Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 7,
+          "seq": 38,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780285936443,
+          "loggedAtIso": "2026-06-01T03:52:16.446Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 7,
+          "seq": 39,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285976793,
+          "gateStartMs": 1780285976793,
+          "loggedAtIso": "2026-06-01T03:52:56.796Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780285976811,
+          "loggedAtIso": "2026-06-01T03:52:56.813Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 3,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285978223,
+          "gateStartMs": 1780285978223,
+          "loggedAtIso": "2026-06-01T03:52:58.227Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 5,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780285978278,
+          "loggedAtIso": "2026-06-01T03:52:58.283Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780286063301,
+          "gateStartMs": 1780286063301,
+          "loggedAtIso": "2026-06-01T03:54:23.308Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 3,
+          "seq": 14,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286063329,
+          "loggedAtIso": "2026-06-01T03:54:23.333Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "popstate",
+          "runId": 3,
+          "seq": 15,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780286064566,
+          "gateStartMs": 1780286064566,
+          "loggedAtIso": "2026-06-01T03:54:24.572Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 17,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286064589,
+          "loggedAtIso": "2026-06-01T03:54:24.593Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 18,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780286069297,
+          "gateStartMs": 1780286069297,
+          "loggedAtIso": "2026-06-01T03:54:29.302Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 7,
+          "seq": 32,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286069320,
+          "loggedAtIso": "2026-06-01T03:54:29.324Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "popstate",
+          "runId": 7,
+          "seq": 33,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 8,
+          "emittedAtMs": 1780286070639,
+          "gateStartMs": 1780286070639,
+          "loggedAtIso": "2026-06-01T03:54:30.644Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 8,
+          "seq": 35,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286070663,
+          "loggedAtIso": "2026-06-01T03:54:30.671Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 8,
+          "seq": 36,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286075679,
+          "gateStartMs": 1780286075679,
+          "loggedAtIso": "2026-06-01T03:54:35.683Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286075700,
+          "loggedAtIso": "2026-06-01T03:54:35.704Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 3,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286076972,
+          "gateStartMs": 1780286076972,
+          "loggedAtIso": "2026-06-01T03:54:36.977Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 5,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286077029,
+          "loggedAtIso": "2026-06-01T03:54:37.034Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "learn-shorts-blocked",
+          "urlKey": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "watchUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        }
+      ],
+      "https://www.youtube.com/watch?v=NpWiXh_oUfE": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285938354,
+          "gateStartMs": 1780285938354,
+          "loggedAtIso": "2026-06-01T03:52:18.358Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285939001,
+          "loggedAtIso": "2026-06-01T03:52:19.009Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 3,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285939340,
+          "loggedAtIso": "2026-06-01T03:52:19.343Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 4,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285939354,
+          "loggedAtIso": "2026-06-01T03:52:19.358Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 5,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285939382,
+          "loggedAtIso": "2026-06-01T03:52:19.397Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 1,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "verdict": "irrelevant"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285939792,
+          "gateStartMs": 1780285939792,
+          "loggedAtIso": "2026-06-01T03:52:19.795Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 8,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricks …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285939833,
+          "loggedAtIso": "2026-06-01T03:52:19.836Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 9,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285940102,
+          "loggedAtIso": "2026-06-01T03:52:20.107Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 10,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285940119,
+          "loggedAtIso": "2026-06-01T03:52:20.122Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 11,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "stability-pass-same-video",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780285940131,
+          "loggedAtIso": "2026-06-01T03:52:20.134Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "verdict": "irrelevant"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286071628,
+          "gateStartMs": 1780286071628,
+          "loggedAtIso": "2026-06-01T03:54:31.633Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286072341,
+          "loggedAtIso": "2026-06-01T03:54:32.346Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 3,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286072948,
+          "loggedAtIso": "2026-06-01T03:54:32.953Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 5,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286072998,
+          "loggedAtIso": "2026-06-01T03:54:33.002Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286073024,
+          "gateStartMs": 1780286073024,
+          "loggedAtIso": "2026-06-01T03:54:33.028Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 7,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "emittedAtMs": 1780286073041,
+          "loggedAtIso": "2026-06-01T03:54:33.044Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 8,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "abort-stale-run-after-meta",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricks …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286073069,
+          "loggedAtIso": "2026-06-01T03:54:33.073Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 9,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286073338,
+          "loggedAtIso": "2026-06-01T03:54:33.345Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 10,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286073360,
+          "loggedAtIso": "2026-06-01T03:54:33.365Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 11,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+            "videoId": "NpWiXh_oUfE"
+          },
+          "emittedAtMs": 1780286073377,
+          "loggedAtIso": "2026-06-01T03:54:33.381Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "targetVideoId": "NpWiXh_oUfE",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "verdict": "irrelevant"
+        }
+      ],
+      "https://www.youtube.com/watch?v=SXPsfr-Fnu4": [
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780285890832,
+          "gateStartMs": 1780285890832,
+          "loggedAtIso": "2026-06-01T03:51:30.834Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n  Transcript\n\n\n  Follow alon",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "emittedAtMs": 1780285890862,
+          "loggedAtIso": "2026-06-01T03:51:30.865Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 13,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "targetVideoId": "SXPsfr-Fnu4",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4"
+        },
+        {
+          "checks": {
+            "attempt": 1,
+            "descriptionReady": true,
+            "genericDescription": false,
+            "notReadyReason": "",
+            "objectIdMatches": true,
+            "titleReady": true
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "emittedAtMs": 1780285891139,
+          "loggedAtIso": "2026-06-01T03:51:31.142Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 14,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "targetVideoId": "SXPsfr-Fnu4",
+          "type": "meta-sample-progress",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4"
+        },
+        {
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "emittedAtMs": 1780285891510,
+          "loggedAtIso": "2026-06-01T03:51:31.516Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 15,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "targetVideoId": "SXPsfr-Fnu4",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "emittedAtMs": 1780285891531,
+          "loggedAtIso": "2026-06-01T03:51:31.535Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "seq": 16,
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "targetVideoId": "SXPsfr-Fnu4",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4"
+        },
+        {
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "emittedAtMs": 1780285891545,
+          "loggedAtIso": "2026-06-01T03:51:31.548Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 4,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "4e7257e9",
+            "videoTextNormalized": "lcm prime factorization method math antics extras least common multiple prime factorization method learn more at mathantics com more more transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "LCM: Prime Factorization Method - Math Antics Extras\nLeast Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.08311467023487865,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.08311467023487865,
+            "legacy": 0.13867504905630726
+          },
+          "seq": 17,
+          "targetUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "targetVideoId": "SXPsfr-Fnu4",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "verdict": "relevant"
+        }
+      ],
+      "https://www.youtube.com/watch?v=kWOTmyoaWJg": [
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780285855551,
+          "gateStartMs": 1780285855551,
+          "loggedAtIso": "2026-06-01T03:50:55.553Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key momen",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285855610,
+          "loggedAtIso": "2026-06-01T03:50:55.613Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 7,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    add 8 to both sides\n    add 8 to both sides\n    2:28\n  \n\n\n  \n    add 8 to both sides\n  \n  2:28\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by a negative sign\n    multiply both sides by a negative sign\n    3:36\n  \n\n\n  \n    multiply both sides by a negative sign\n  \n  3:36\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by 4\n    multiply both sides by 4\n    6:36\n  \n\n\n  \n    multiply both sides by 4\n  \n  6:36\n\n\n\n\n  \n    \n    \n  \n  \n    add 3 to both sides\n    add 3 to both sides\n    10:42\n  \n\n\n  \n    add 3 to both sides\n  \n  10:42\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285855893,
+          "loggedAtIso": "2026-06-01T03:50:55.896Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 8,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285855903,
+          "loggedAtIso": "2026-06-01T03:50:55.905Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "seq": 9,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285855912,
+          "loggedAtIso": "2026-06-01T03:50:55.915Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 3,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "d04467bc",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples includ more more key moments view all add 8 to both sides add 8 to both sides 2 28 add 8 to both sides 2 28 multiply both sides by a negative sign multiply both sides by a negative sign 3 36 multiply both sides by a negative sign 3 36 multiply both sides by 4 multiply both sides by 4 6 36 multiply both sides by 4 6 36 add 3 to both sides add 3 to both sides 10 42 add 3 to both sides 10 42 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.10958331657243388,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.10958331657243388,
+            "legacy": 0.08574929257125442
+          },
+          "seq": 10,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780285915556,
+          "gateStartMs": 1780285915556,
+          "loggedAtIso": "2026-06-01T03:51:55.558Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 19,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n           ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285915575,
+          "loggedAtIso": "2026-06-01T03:51:55.578Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 20,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285915841,
+          "loggedAtIso": "2026-06-01T03:51:55.843Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 21,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285915857,
+          "loggedAtIso": "2026-06-01T03:51:55.859Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 22,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n           ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916034,
+          "loggedAtIso": "2026-06-01T03:51:56.036Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 23,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916339,
+          "loggedAtIso": "2026-06-01T03:51:56.343Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 24,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916351,
+          "loggedAtIso": "2026-06-01T03:51:56.354Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 25,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-fail",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show tra"
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n           ",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916524,
+          "loggedAtIso": "2026-06-01T03:51:56.527Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 26,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "attempt": 1,
+            "descriptionReady": true,
+            "genericDescription": false,
+            "notReadyReason": "",
+            "objectIdMatches": true,
+            "titleReady": true
+          },
+          "current": {
+            "description": "Least Common Multiple: Prime Factorization Method\nLearn More at mathantics.com …...more\n...more\n\n              \n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916822,
+          "loggedAtIso": "2026-06-01T03:51:56.826Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 28,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-progress",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780285916826,
+          "gateStartMs": 1780285916826,
+          "loggedAtIso": "2026-06-01T03:51:56.832Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 29,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        "
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key momen",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285916924,
+          "loggedAtIso": "2026-06-01T03:51:56.927Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 30,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    add 8 to both sides\n    add 8 to both sides\n    2:28\n  \n\n\n  \n    add 8 to both sides\n  \n  2:28\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by a negative sign\n    multiply both sides by a negative sign\n    3:36\n  \n\n\n  \n    multiply both sides by a negative sign\n  \n  3:36\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by 4\n    multiply both sides by 4\n    6:36\n  \n\n\n  \n    multiply both sides by 4\n  \n  6:36\n\n\n\n\n  \n    \n    \n  \n  \n    add 3 to both sides\n    add 3 to both sides\n    10:42\n  \n\n\n  \n    add 3 to both sides\n  \n  10:42\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285917217,
+          "loggedAtIso": "2026-06-01T03:51:57.220Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 31,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285917228,
+          "loggedAtIso": "2026-06-01T03:51:57.230Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 32,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285917237,
+          "loggedAtIso": "2026-06-01T03:51:57.239Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "document.title",
+            "videoHash": "d04467bc",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples includ more more key moments view all add 8 to both sides add 8 to both sides 2 28 add 8 to both sides 2 28 multiply both sides by a negative sign multiply both sides by a negative sign 3 36 multiply both sides by a negative sign 3 36 multiply both sides by 4 multiply both sides by 4 6 36 multiply both sides by 4 6 36 add 3 to both sides add 3 to both sides 10 42 add 3 to both sides 10 42 transcript follow along using the transcript show transcript show less",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less"
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.10958331657243388,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.10958331657243388,
+            "legacy": 0.08574929257125442
+          },
+          "seq": 33,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n              \n\n\n\n\n  \n  \n  \n    \n      Key moments\n      \n    \n  \n  \n  \n  \n  \n  View all\n\n\n  \n  \n\n\n  \n    \n       \n    \n    \n  \n  \n    \n  \n    \n    \n  \n  \n    add 8 to both sides\n    add 8 to both sides\n    2:28\n  \n\n\n  \n    add 8 to both sides\n  \n  2:28\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by a negative sign\n    multiply both sides by a negative sign\n    3:36\n  \n\n\n  \n    multiply both sides by a negative sign\n  \n  3:36\n\n\n\n\n  \n    \n    \n  \n  \n    multiply both sides by 4\n    multiply both sides by 4\n    6:36\n  \n\n\n  \n    multiply both sides by 4\n  \n  6:36\n\n\n\n\n  \n    \n    \n  \n  \n    add 3 to both sides\n    add 3 to both sides\n    10:42\n  \n\n\n  \n    add 3 to both sides\n  \n  10:42\n\n\n\n\n  \n  \n    \n       \n    \n    \n  \n\n\n\n\n\n  Transcript\n\n\n  Follow along using the transcript.\n\n\n  Show transcript\n\n\n\n\n              \n\n\n            Show less",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285917256,
+          "loggedAtIso": "2026-06-01T03:51:57.260Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 34,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": true,
+            "titleChanged": true,
+            "urlChanged": true
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples includ …...more ...more Key moments View all add 8 to both sides add 8 to both sides 2:28 add 8 to both sides 2:28 multiply both sides by a negative sign multiply both sides by a negative sign 3:36 multiply both sides by a negative sign 3:36 multiply both sides by 4 multiply both sides by 4 6:36 multiply both sides by 4 6:36 add 3 to both sides add 3 to both sides 10:42 add 3 to both sides 10:42 Transcript Follow along using the transcript. Show transcript Show less",
+            "descriptionSource": "watch-dom",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "document.title",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285917277,
+          "loggedAtIso": "2026-06-01T03:51:57.281Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Least Common Multiple: Prime Factorization Method Learn More at mathantics.com …...more ...more Transcript Follow along using the transcript. Show transcript Show less",
+            "title": "LCM: Prime Factorization Method - Math Antics Extras",
+            "url": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+            "videoId": "SXPsfr-Fnu4"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 35,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "emittedAtMs": 1780285917298,
+          "loggedAtIso": "2026-06-01T03:51:57.301Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 36,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "abort-stale-run-after-meta",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780285979837,
+          "gateStartMs": 1780285979837,
+          "loggedAtIso": "2026-06-01T03:52:59.843Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 8,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285979908,
+          "loggedAtIso": "2026-06-01T03:52:59.911Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 9,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285980174,
+          "loggedAtIso": "2026-06-01T03:53:00.181Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 10,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285980196,
+          "loggedAtIso": "2026-06-01T03:53:00.200Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 11,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285980212,
+          "loggedAtIso": "2026-06-01T03:53:00.215Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "irrelevant"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780285980677,
+          "gateStartMs": 1780285980677,
+          "loggedAtIso": "2026-06-01T03:53:00.682Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 14,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285980700,
+          "loggedAtIso": "2026-06-01T03:53:00.703Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 15,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285980985,
+          "loggedAtIso": "2026-06-01T03:53:00.989Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 16,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285981000,
+          "loggedAtIso": "2026-06-01T03:53:01.004Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 17,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-same-video",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780285981029,
+          "loggedAtIso": "2026-06-01T03:53:01.033Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 18,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "irrelevant"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286015030,
+          "gateStartMs": 1780286015029,
+          "loggedAtIso": "2026-06-01T03:53:35.033Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 2,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286016002,
+          "loggedAtIso": "2026-06-01T03:53:36.006Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 3,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286016655,
+          "loggedAtIso": "2026-06-01T03:53:36.659Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 5,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286016695,
+          "gateStartMs": 1780286016694,
+          "loggedAtIso": "2026-06-01T03:53:36.699Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 6,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286016711,
+          "loggedAtIso": "2026-06-01T03:53:36.715Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "initial",
+          "runId": 1,
+          "seq": 7,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "emittedAtMs": 1780286016748,
+          "loggedAtIso": "2026-06-01T03:53:36.752Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "initial",
+          "runId": 1,
+          "seq": 8,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "abort-stale-run-after-meta",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286016770,
+          "loggedAtIso": "2026-06-01T03:53:36.774Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 9,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286017042,
+          "loggedAtIso": "2026-06-01T03:53:37.048Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 10,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286017062,
+          "loggedAtIso": "2026-06-01T03:53:37.066Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "seq": 11,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286017078,
+          "loggedAtIso": "2026-06-01T03:53:37.081Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "yt-navigate-finish",
+          "runId": 2,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "e48744e7",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples include fr",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.31113009843884043,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.31113009843884043,
+            "legacy": 0.3380617018914066
+          },
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780286066064,
+          "gateStartMs": 1780286066064,
+          "loggedAtIso": "2026-06-01T03:54:26.070Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 20,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fractions.  You can cross",
+            "fetchedBoundDescription": "",
+            "metaDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286066151,
+          "loggedAtIso": "2026-06-01T03:54:26.155Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 21,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286066420,
+          "loggedAtIso": "2026-06-01T03:54:26.430Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 22,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286066450,
+          "loggedAtIso": "2026-06-01T03:54:26.456Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "seq": 23,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-same-video",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286066470,
+          "loggedAtIso": "2026-06-01T03:54:26.474Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "popstate",
+          "runId": 5,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "e48744e7",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples include fr",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.31113009843884043,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.31113009843884043,
+            "legacy": 0.3380617018914066
+          },
+          "seq": 24,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780286066892,
+          "gateStartMs": 1780286066892,
+          "loggedAtIso": "2026-06-01T03:54:26.900Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 26,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "objectDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286066940,
+          "loggedAtIso": "2026-06-01T03:54:26.944Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 27,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples include fr...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286067216,
+          "loggedAtIso": "2026-06-01T03:54:27.224Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 28,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": false
+          },
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "descriptionSource": "meta[name=description]",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286067241,
+          "loggedAtIso": "2026-06-01T03:54:27.245Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "seq": 29,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-same-video",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286067257,
+          "loggedAtIso": "2026-06-01T03:54:27.261Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr...",
+            "title": "Algebra Basics - Solving Basic Equations - Quick Review!",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 6,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "e48744e7",
+            "videoTextNormalized": "algebra basics solving basic equations quick review this pre algebra video tutorial explains how to solve basic equations by using addition subtraction multiplication and division some examples include fr",
+            "videoTextRaw": "Algebra Basics - Solving Basic Equations - Quick Review!\nThis pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division. Some examples include fr..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.31113009843884043,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.31113009843884043,
+            "legacy": 0.3380617018914066
+          },
+          "seq": 30,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "relevant"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780286078878,
+          "gateStartMs": 1780286078878,
+          "loggedAtIso": "2026-06-01T03:54:38.885Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 8,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286078937,
+          "loggedAtIso": "2026-06-01T03:54:38.941Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 9,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286079214,
+          "loggedAtIso": "2026-06-01T03:54:39.220Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 10,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286079236,
+          "loggedAtIso": "2026-06-01T03:54:39.240Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "seq": 11,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-no-previous",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286079254,
+          "loggedAtIso": "2026-06-01T03:54:39.258Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": null,
+          "reason": "popstate",
+          "runId": 4,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 12,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "irrelevant"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780286080046,
+          "gateStartMs": 1780286080046,
+          "loggedAtIso": "2026-06-01T03:54:40.050Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "collecting-meta",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 14,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "type": "evaluation-start",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "candidates": {
+            "boundDescription": "",
+            "domDescription": "This pre-algebra video tutorial explains how to solve basic equations by using addition, subtraction, multiplication, and division.  Some examples includ …...more\n...more\n\n        ",
+            "fetchedBoundDescription": "",
+            "metaDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "objectDescription": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "checks": {
+            "attempt": 1,
+            "genericDescription": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "genericDescription": false,
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286080110,
+          "loggedAtIso": "2026-06-01T03:54:40.115Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 15,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-source-candidates",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286080380,
+          "loggedAtIso": "2026-06-01T03:54:40.386Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 16,
+          "sourceVideoId": "",
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "meta-sample-ready",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "checks": {
+            "descriptionChanged": false,
+            "titleChanged": false,
+            "urlChanged": false
+          },
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "descriptionSource": "meta[name=description]",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "titleSource": "meta[name=title]",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286080401,
+          "loggedAtIso": "2026-06-01T03:54:40.406Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "seq": 17,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "type": "stability-pass-same-video",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg"
+        },
+        {
+          "current": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "emittedAtMs": 1780286080419,
+          "loggedAtIso": "2026-06-01T03:54:40.423Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "previous": {
+            "description": "Addition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati...",
+            "title": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks",
+            "url": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+            "videoId": "kWOTmyoaWJg"
+          },
+          "reason": "yt-navigate-finish",
+          "runId": 5,
+          "scoreInputs": {
+            "descriptionConfidence": "runtime-high",
+            "descriptionSource": "meta[name=description]",
+            "intentHash": "ff39d207",
+            "intentTextNormalized": "algebra",
+            "intentTextRaw": "Algebra",
+            "titleSource": "meta[name=title]",
+            "videoHash": "398bbf6",
+            "videoTextNormalized": "addition trick butterfly method for addition fraction fraction trick shorts fraction tricks addition trick butterfly method for addition trick fraction trick shorts fraction trickssimplification in 2 simplificati",
+            "videoTextRaw": "Addition Trick |🦋Butterfly Method for addition fraction |Fraction Trick #shorts #fraction #tricks\nAddition trick|Butterfly Method for addition trick|Fraction trick |#shorts #fraction #tricksSimplification in 2 सेकेंड | सरलीकरण का आसान ट्रिक | Simplificati..."
+          },
+          "semanticLatencyMs": {
+            "embedding": 0,
+            "legacy": 0
+          },
+          "semanticScore": 0.012871651192371483,
+          "semanticScores": {
+            "activeSource": "embedding",
+            "embedding": 0.012871651192371483,
+            "legacy": 0
+          },
+          "seq": 18,
+          "targetUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "targetVideoId": "kWOTmyoaWJg",
+          "thresholds": {
+            "borderlineMin": 0.02,
+            "relevantMin": 0.04
+          },
+          "type": "evaluation-complete",
+          "urlKey": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "verdict": "irrelevant"
+        }
+      ],
+      "unknown-url": [
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285844358,
+          "loggedAtIso": "2026-06-01T03:50:44.360Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285845642,
+          "loggedAtIso": "2026-06-01T03:50:45.644Z",
+          "pageUrl": "https://www.youtube.com/",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 3,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285850246,
+          "loggedAtIso": "2026-06-01T03:50:50.251Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be%20able%20to%20solve%20a%20simple%20algebraic%20equation.",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285851431,
+          "loggedAtIso": "2026-06-01T03:50:51.437Z",
+          "pageUrl": "https://www.youtube.com/results?search_query=Be+able+to+solve+a+simple+algebraic+equation.",
+          "pageVideoId": null,
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 3,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780285855357,
+          "loggedAtIso": "2026-06-01T03:50:55.359Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 5,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780285890629,
+          "loggedAtIso": "2026-06-01T03:51:30.632Z",
+          "pageUrl": "https://www.youtube.com/watch?v=SXPsfr-Fnu4",
+          "pageVideoId": "SXPsfr-Fnu4",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 11,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780285915413,
+          "loggedAtIso": "2026-06-01T03:51:55.431Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 18,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780285916651,
+          "loggedAtIso": "2026-06-01T03:51:56.654Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 27,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780285936249,
+          "loggedAtIso": "2026-06-01T03:52:16.253Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 37,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285938324,
+          "loggedAtIso": "2026-06-01T03:52:18.331Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285939585,
+          "loggedAtIso": "2026-06-01T03:52:19.588Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 7,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780285976762,
+          "loggedAtIso": "2026-06-01T03:52:56.767Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780285978075,
+          "loggedAtIso": "2026-06-01T03:52:58.079Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 4,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780285979692,
+          "loggedAtIso": "2026-06-01T03:52:59.709Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 7,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780285980535,
+          "loggedAtIso": "2026-06-01T03:53:00.539Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 13,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286014998,
+          "loggedAtIso": "2026-06-01T03:53:35.003Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286016489,
+          "loggedAtIso": "2026-06-01T03:53:36.492Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 4,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 3,
+          "emittedAtMs": 1780286063161,
+          "loggedAtIso": "2026-06-01T03:54:23.179Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 13,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780286064424,
+          "loggedAtIso": "2026-06-01T03:54:24.431Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 16,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780286065923,
+          "loggedAtIso": "2026-06-01T03:54:25.945Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 19,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 6,
+          "emittedAtMs": 1780286066737,
+          "loggedAtIso": "2026-06-01T03:54:26.742Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 25,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 7,
+          "emittedAtMs": 1780286069153,
+          "loggedAtIso": "2026-06-01T03:54:29.172Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 31,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 8,
+          "emittedAtMs": 1780286070496,
+          "loggedAtIso": "2026-06-01T03:54:30.503Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 34,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286071597,
+          "loggedAtIso": "2026-06-01T03:54:31.603Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286072813,
+          "loggedAtIso": "2026-06-01T03:54:32.816Z",
+          "pageUrl": "https://www.youtube.com/watch?v=NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 4,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 1,
+          "emittedAtMs": 1780286075648,
+          "loggedAtIso": "2026-06-01T03:54:35.655Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "initial",
+          "seq": 1,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 2,
+          "emittedAtMs": 1780286076819,
+          "loggedAtIso": "2026-06-01T03:54:36.825Z",
+          "pageUrl": "https://www.youtube.com/shorts/NpWiXh_oUfE",
+          "pageVideoId": "NpWiXh_oUfE",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 4,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 4,
+          "emittedAtMs": 1780286078738,
+          "loggedAtIso": "2026-06-01T03:54:38.757Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "popstate",
+          "seq": 7,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        },
+        {
+          "coordinatorId": 5,
+          "emittedAtMs": 1780286079864,
+          "loggedAtIso": "2026-06-01T03:54:39.870Z",
+          "pageUrl": "https://www.youtube.com/watch?v=kWOTmyoaWJg",
+          "pageVideoId": "kWOTmyoaWJg",
+          "phase": "scheduled",
+          "reason": "yt-navigate-finish",
+          "seq": 13,
+          "type": "coord-start",
+          "urlKey": "unknown-url"
+        }
+      ]
+    },
+    "maxEventsPerUrl": 250
+  }
+}
