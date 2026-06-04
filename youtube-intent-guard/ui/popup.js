@@ -2,9 +2,11 @@ const send = (type, payload = {}) =>
   new Promise((resolve) => chrome.runtime.sendMessage({ type, payload }, resolve));
 
 let debugPollTimer = null;
+let activeSession = null;
 
 const STRICT_MIN = 0.05;
 const STRICT_MAX = 0.2;
+const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
 
 function clamp(n, min, max) {
   return Math.min(max, Math.max(min, n));
@@ -63,6 +65,118 @@ async function saveEvaluationSettings() {
 
 function value(id) {
   return document.getElementById(id)?.value?.trim();
+}
+
+function setValue(id, value = "") {
+  const el = document.getElementById(id);
+  if (el) el.value = value ?? "";
+}
+
+function setHidden(id, hidden) {
+  const el = document.getElementById(id);
+  if (el) el.hidden = !!hidden;
+}
+
+function setCardTitle(cardId, text) {
+  const title = document.querySelector(`#${cardId} h2`);
+  if (title) title.textContent = text;
+}
+
+function nonWhitespaceLength(text = "") {
+  return String(text || "").replace(/\s/g, "").length;
+}
+
+function clearPopupError() {
+  const error = document.getElementById("popup-error");
+  if (error) {
+    error.textContent = "";
+    error.hidden = true;
+  }
+  document.querySelectorAll(".input-error").forEach((el) => el.classList.remove("input-error"));
+}
+
+function showPopupError(message, fieldId = null) {
+  const error = document.getElementById("popup-error");
+  if (error) {
+    error.textContent = message;
+    error.hidden = false;
+  }
+  document.querySelectorAll(".input-error").forEach((el) => el.classList.remove("input-error"));
+  const field = fieldId ? document.getElementById(fieldId) : null;
+  if (field) {
+    field.classList.add("input-error");
+    field.focus();
+  }
+}
+
+function validateLearnPayload(payload) {
+  if (!payload.learnAnswers.topic) {
+    return { ok: false, message: "Please enter the topic(s) you want to learn.", fieldId: "learn-topic" };
+  }
+  if (!payload.learnAnswers.goal) {
+    return { ok: false, message: "Please enter your goal for this session.", fieldId: "learn-goal" };
+  }
+  return { ok: true };
+}
+
+function validateRelaxPayload(payload) {
+  const fields = [
+    ["currentFeel", "relax-current", "how you currently feel"],
+    ["desiredFeel", "relax-want", "how you want to feel"],
+    ["alternativesNow", "relax-other", "what else can help you now"],
+    ["tomorrowNeed", "relax-tomorrow", "what you need to do to make sure you feel good tomorrow"],
+    ["durationWhy", "relax-why", "why this is the right length for you"]
+  ];
+
+  for (const [key, fieldId, label] of fields) {
+    if (nonWhitespaceLength(payload.relaxAnswers[key]) < RELAX_TEXT_MIN_NON_WHITESPACE) {
+      return {
+        ok: false,
+        message: `Please elaborate more on ${label}.`,
+        fieldId
+      };
+    }
+  }
+
+  return { ok: true };
+}
+
+function formatRemainingTime(endTime) {
+  const remainingMs = Math.max(0, Number(endTime || 0) - Date.now());
+  const minutes = Math.ceil(remainingMs / 60_000);
+  if (minutes <= 0) return "Time remaining: less than 1 min";
+  return `Time remaining: ${minutes} min`;
+}
+
+function buildLearnPayload() {
+  return {
+    mode: "learn",
+    learnAnswers: {
+      topic: value("learn-topic"),
+      goal: value("learn-goal"),
+      purposeReflection: value("learn-purpose"),
+      timingReflection: value("learn-timing")
+    }
+  };
+}
+
+function buildRelaxPayload({ includeDuration = true } = {}) {
+  const relaxAnswers = {
+    currentFeel: value("relax-current"),
+    desiredFeel: value("relax-want"),
+    alternativesNow: value("relax-other"),
+    tomorrowNeed: value("relax-tomorrow"),
+    durationWhy: value("relax-why")
+  };
+
+  if (includeDuration) {
+    relaxAnswers.durationMinutes = Number(value("relax-duration") || 30);
+  }
+
+  return {
+    mode: "relax",
+    relaxAnswers
+  };
 }
 
 function short(text = "", max = 220) {
@@ -242,49 +356,87 @@ async function clearDebugLogs() {
 async function refreshStatus() {
   const res = await send("GET_STATE");
   const session = res?.state?.activeSession;
+  activeSession = session || null;
   const status = document.getElementById("status");
 
   if (!session) {
     status.textContent = "No active session";
+    setHidden("learn-card", false);
+    setHidden("relax-card", false);
+    setHidden("relax-duration-field", false);
+    setHidden("relax-time-remaining", true);
+    setCardTitle("learn-card", "Start Learn Session");
+    setCardTitle("relax-card", "Start Relax Session");
+    const learnButton = document.getElementById("start-learn");
+    const relaxButton = document.getElementById("start-relax");
+    if (learnButton) learnButton.textContent = "Start Learn Session";
+    if (relaxButton) relaxButton.textContent = "Start Relax Session";
     return;
   }
 
   if (session.mode === "learn") {
     status.textContent = `Active Learn session: ${session.learnAnswers.topic}`;
+    setHidden("learn-card", false);
+    setHidden("relax-card", true);
+    setCardTitle("learn-card", "Edit Learn Session");
+    const learnButton = document.getElementById("start-learn");
+    if (learnButton) learnButton.textContent = "Save Changes";
+    setValue("learn-topic", session.learnAnswers?.topic || "");
+    setValue("learn-goal", session.learnAnswers?.goal || "");
+    setValue("learn-purpose", session.learnAnswers?.purposeReflection || "");
+    setValue("learn-timing", session.learnAnswers?.timingReflection || "");
   } else {
     const minsLeft = Math.max(0, Math.round((session.endTime - Date.now()) / 60_000));
     status.textContent = `Active Relax session: ${minsLeft} min left`;
+    setHidden("learn-card", true);
+    setHidden("relax-card", false);
+    setHidden("relax-duration-field", true);
+    setHidden("relax-time-remaining", false);
+    setCardTitle("relax-card", "Edit Relax Session");
+    const relaxButton = document.getElementById("start-relax");
+    const remaining = document.getElementById("relax-time-remaining");
+    if (relaxButton) relaxButton.textContent = "Save Changes";
+    if (remaining) remaining.textContent = formatRemainingTime(session.endTime);
+    setValue("relax-current", session.relaxAnswers?.currentFeel || "");
+    setValue("relax-want", session.relaxAnswers?.desiredFeel || "");
+    setValue("relax-other", session.relaxAnswers?.alternativesNow || "");
+    setValue("relax-tomorrow", session.relaxAnswers?.tomorrowNeed || "");
+    setValue("relax-duration", session.relaxAnswers?.durationMinutes || "");
+    setValue("relax-why", session.relaxAnswers?.durationWhy || "");
   }
 }
 
 document.getElementById("start-learn")?.addEventListener("click", async () => {
-  const payload = {
-    mode: "learn",
-    learnAnswers: {
-      topic: value("learn-topic"),
-      goal: value("learn-goal"),
-      purposeReflection: value("learn-purpose"),
-      timingReflection: value("learn-timing")
-    }
-  };
-  await send("START_SESSION", payload);
-  await refreshStatus();
+  const payload = buildLearnPayload();
+  const validation = validateLearnPayload(payload);
+  if (!validation.ok) {
+    showPopupError(validation.message, validation.fieldId);
+    return;
+  }
+  clearPopupError();
+  const res = await send(activeSession?.mode === "learn" ? "UPDATE_ACTIVE_SESSION" : "START_SESSION", payload);
+  if (!res?.ok) {
+    showPopupError(res?.error || "Could not save Learn session.");
+    return;
+  }
+  window.close();
 });
 
 document.getElementById("start-relax")?.addEventListener("click", async () => {
-  const payload = {
-    mode: "relax",
-    relaxAnswers: {
-      currentFeel: value("relax-current"),
-      desiredFeel: value("relax-want"),
-      alternativesNow: value("relax-other"),
-      tomorrowNeed: value("relax-tomorrow"),
-      durationMinutes: Number(value("relax-duration") || 30),
-      durationWhy: value("relax-why")
-    }
-  };
-  await send("START_SESSION", payload);
-  await refreshStatus();
+  const editingRelax = activeSession?.mode === "relax";
+  const payload = buildRelaxPayload({ includeDuration: !editingRelax });
+  const validation = validateRelaxPayload(payload);
+  if (!validation.ok) {
+    showPopupError(validation.message, validation.fieldId);
+    return;
+  }
+  clearPopupError();
+  const res = await send(editingRelax ? "UPDATE_ACTIVE_SESSION" : "START_SESSION", payload);
+  if (!res?.ok) {
+    showPopupError(res?.error || "Could not save Relax session.");
+    return;
+  }
+  window.close();
 });
 
 document.getElementById("end-session")?.addEventListener("click", async () => {

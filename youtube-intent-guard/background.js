@@ -1,4 +1,4 @@
-import { getState, startSession, endSession, logCalibrationEvent, updateSemanticThresholds, updateEvaluationSettings, updateState } from "./storage/storage.js";
+import { getState, startSession, updateActiveSession, endSession, logCalibrationEvent, updateSemanticThresholds, updateEvaluationSettings, updateState } from "./storage/storage.js";
 
 function nowIso() {
   return new Date().toISOString();
@@ -14,6 +14,40 @@ function toTabScopeKey(sender) {
   const tabId = sender?.tab?.id;
   if (typeof tabId === "number") return `tab:${tabId}`;
   return "tab:unknown";
+}
+
+const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
+
+function nonWhitespaceLength(value = "") {
+  return String(value || "").replace(/\s/g, "").length;
+}
+
+function validateLearnAnswers(learnAnswers = {}) {
+  if (!String(learnAnswers.topic || "").trim()) {
+    return { ok: false, error: "Please enter the topic(s) you want to learn." };
+  }
+  if (!String(learnAnswers.goal || "").trim()) {
+    return { ok: false, error: "Please enter your goal for this session." };
+  }
+  return { ok: true };
+}
+
+function validateRelaxAnswers(relaxAnswers = {}) {
+  const fields = [
+    ["currentFeel", "how you currently feel"],
+    ["desiredFeel", "how you want to feel"],
+    ["alternativesNow", "what else can help you now"],
+    ["tomorrowNeed", "what you need to do to make sure you feel good tomorrow"],
+    ["durationWhy", "why this is the right length for you"]
+  ];
+
+  for (const [key, label] of fields) {
+    if (nonWhitespaceLength(relaxAnswers[key]) < RELAX_TEXT_MIN_NON_WHITESPACE) {
+      return { ok: false, error: `Please elaborate more on ${label}.` };
+    }
+  }
+
+  return { ok: true };
 }
 
 async function scheduleRelaxWarnings(activeSession, warnings) {
@@ -68,6 +102,20 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
 
     if (message.type === "START_SESSION") {
+      if (state.activeSession) {
+        return sendResponse({ ok: false, error: "A session is already active." });
+      }
+
+      if (message.payload?.mode === "learn") {
+        const validation = validateLearnAnswers(message.payload?.learnAnswers || {});
+        if (!validation.ok) return sendResponse(validation);
+      }
+
+      if (message.payload?.mode === "relax") {
+        const validation = validateRelaxAnswers(message.payload?.relaxAnswers || {});
+        if (!validation.ok) return sendResponse(validation);
+      }
+
       const session = {
         ...message.payload,
         id: crypto.randomUUID(),
@@ -84,6 +132,64 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       await chrome.alarms.clearAll();
       await scheduleRelaxWarnings(session, state.settings.warnings || [15, 10, 5, 1]);
       return sendResponse({ ok: true, session });
+    }
+
+    if (message.type === "UPDATE_ACTIVE_SESSION") {
+      const active = state.activeSession;
+      const payload = message.payload || {};
+      if (!active) return sendResponse({ ok: false, error: "No active session." });
+      if (!payload.mode || payload.mode !== active.mode) {
+        return sendResponse({ ok: false, error: "Session mode mismatch." });
+      }
+
+      const nextState = await updateActiveSession((cur) => {
+        if (!cur || cur.mode !== active.mode) return cur;
+
+        if (cur.mode === "learn") {
+          const learnAnswers = payload.learnAnswers || {};
+          const validation = validateLearnAnswers(learnAnswers);
+          if (!validation.ok) return cur;
+          return {
+            ...cur,
+            learnAnswers: {
+              ...(cur.learnAnswers || {}),
+              topic: String(learnAnswers.topic || "").trim(),
+              goal: String(learnAnswers.goal || "").trim(),
+              purposeReflection: String(learnAnswers.purposeReflection || "").trim(),
+              timingReflection: String(learnAnswers.timingReflection || "").trim()
+            },
+            updatedAtIso: nowIso()
+          };
+        }
+
+        const relaxAnswers = payload.relaxAnswers || {};
+        const validation = validateRelaxAnswers(relaxAnswers);
+        if (!validation.ok) return cur;
+        return {
+          ...cur,
+          relaxAnswers: {
+            ...(cur.relaxAnswers || {}),
+            currentFeel: String(relaxAnswers.currentFeel || "").trim(),
+            desiredFeel: String(relaxAnswers.desiredFeel || "").trim(),
+            alternativesNow: String(relaxAnswers.alternativesNow || "").trim(),
+            tomorrowNeed: String(relaxAnswers.tomorrowNeed || "").trim(),
+            durationWhy: String(relaxAnswers.durationWhy || "").trim()
+          },
+          updatedAtIso: nowIso()
+        };
+      });
+
+      if (active.mode === "learn") {
+        const validation = validateLearnAnswers(payload.learnAnswers || {});
+        if (!validation.ok) return sendResponse(validation);
+      }
+
+      if (active.mode === "relax") {
+        const validation = validateRelaxAnswers(payload.relaxAnswers || {});
+        if (!validation.ok) return sendResponse(validation);
+      }
+
+      return sendResponse({ ok: true, session: nextState.activeSession });
     }
 
     if (message.type === "END_SESSION") {

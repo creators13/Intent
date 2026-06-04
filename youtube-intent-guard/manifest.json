@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "YouTube Intent Guard",
+  "name": "Thread — Focus for YouTube",
   "description": "Intentional YouTube sessions for learning and relaxing with boundaries.",
   "version": "0.2.0",
   "permissions": ["storage", "tabs", "alarms", "notifications"],
@@ -10,7 +10,7 @@
     "type": "module"
   },
   "action": {
-    "default_title": "YouTube Intent Guard",
+    "default_title": "Thread",
     "default_popup": "ui/popup.html"
   },
   "icons": {

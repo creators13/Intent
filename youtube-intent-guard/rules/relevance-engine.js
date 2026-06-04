@@ -73,7 +73,7 @@
 
     if (!goal || !topic) return "";
 
-    return `Represent this sentence for searching relevant passages: Learning goal: ${goal}. Topics: ${topic}.`;
+    return `Represent this sentence for searching relevant passages: I want to learn about ${topic}. This is my goal: ${goal}.`;
   }
 
   function buildVideoText(videoMeta) {

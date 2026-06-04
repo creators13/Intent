@@ -132,6 +132,17 @@ export async function startSession(session) {
   }));
 }
 
+export async function updateActiveSession(updater) {
+  return updateState((state) => {
+    if (!state.activeSession) return state;
+    const nextActiveSession = updater(state.activeSession, state);
+    return {
+      ...state,
+      activeSession: nextActiveSession
+    };
+  });
+}
+
 export async function endSession(summary) {
   return updateState((state) => {
     const history = [...state.sessionHistory, summary];

@@ -2,37 +2,39 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>YouTube Intent Guard</title>
+    <title>Thread</title>
     <link rel="stylesheet" href="popup.css" />
   </head>
   <body>
     <main class="container">
-      <h1>YouTube Intent Guard</h1>
+      <h1>Thread</h1>
       <section id="status"></section>
+      <div id="popup-error" class="form-error" hidden></div>
 
-      <section class="card">
+      <section id="learn-card" class="card">
         <h2>Start Learn Session</h2>
         <div class="field">
-          <label for="learn-topic">Topic to learn</label>
+          <label for="learn-topic">What topic(s) do I want to learn about in this session?</label>
           <input id="learn-topic" placeholder="e.g. Python decorators" />
         </div>
         <div class="field">
-          <label for="learn-goal">Goal by end of session</label>
+          <label for="learn-goal">What is my goal to reach by the end of this session?</label>
           <input id="learn-goal" placeholder="e.g. Build and understand one example" />
         </div>
         <div class="field">
-          <label for="learn-purpose">What is the purpose of this learning?</label>
+          <label for="learn-purpose">What is my purpose for this learning?</label>
           <textarea id="learn-purpose" placeholder="Short reflection"></textarea>
         </div>
         <div class="field">
-          <label for="learn-timing">Is now the appropriate time?</label>
+          <label for="learn-timing">Is now an appropriate time for this learning?</label>
           <textarea id="learn-timing" placeholder="Short reflection"></textarea>
         </div>
         <button id="start-learn">Start Learn Session</button>
       </section>
 
-      <section class="card">
+      <section id="relax-card" class="card">
         <h2>Start Relax Session</h2>
+        <div id="relax-time-remaining" class="settings-note" hidden></div>
         <div class="field">
           <label for="relax-current">How do I currently feel?</label>
           <input id="relax-current" placeholder="e.g. Stressed, tired" />
@@ -42,19 +44,19 @@
           <input id="relax-want" placeholder="e.g. Calm and refreshed" />
         </div>
         <div class="field">
-          <label for="relax-other">What else can help now?</label>
+          <label for="relax-other">What else can help me now?</label>
           <input id="relax-other" placeholder="e.g. Walk, stretch, water" />
         </div>
         <div class="field">
           <label for="relax-tomorrow">What helps me feel good tomorrow?</label>
           <input id="relax-tomorrow" placeholder="e.g. Sleep by 11pm" />
         </div>
-        <div class="field">
-          <label for="relax-duration">Session length (minutes)</label>
+        <div id="relax-duration-field" class="field">
+          <label for="relax-duration">How long should my session be (minutes)?</label>
           <input id="relax-duration" type="number" min="1" max="240" value="30" />
         </div>
         <div class="field">
-          <label for="relax-why">Why this length?</label>
+          <label for="relax-why">Why is this the right length for me?</label>
           <textarea id="relax-why" placeholder="Short reflection"></textarea>
         </div>
         <button id="start-relax">Start Relax Session</button>

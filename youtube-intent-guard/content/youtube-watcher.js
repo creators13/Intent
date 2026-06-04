@@ -12,6 +12,7 @@
   const watcherBootId = `boot-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
   const intentCache = new Map();
   let lastBgeIntentSessionId = null;
+  let lastBgeIntentSessionSignature = null;
   let listenersBound = false;
   let mediaWasAutoMuted = false;
   const autoPausedMedia = new WeakSet();
@@ -19,6 +20,7 @@
   const EVALUATION_COOLDOWN_MS = 5000;
   const DEFAULT_RELOAD_FALLBACK_AFTER_MS = 3000;
   const DEFAULT_META_GATE_TIMEOUT_MS = 5000;
+  const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
   const recentShortsUrls = [];
   const MAX_SHORTS_HISTORY = 20;
 
@@ -102,6 +104,43 @@
   function buildWatchUrlFromVideoId(videoId) {
     if (!videoId) return "https://www.youtube.com/";
     return `https://www.youtube.com/watch?v=${encodeURIComponent(videoId)}`;
+  }
+
+  function nonWhitespaceLength(text = "") {
+    return String(text || "").replace(/\s/g, "").length;
+  }
+
+  function showModalError(message, fieldId = null) {
+    const err = document.getElementById("igm-error");
+    if (err) err.textContent = message;
+    document.querySelectorAll(".igm-input-error").forEach((el) => el.classList.remove("igm-input-error"));
+    const field = fieldId ? document.getElementById(fieldId) : null;
+    if (field) {
+      field.classList.add("igm-input-error");
+      field.focus();
+    }
+  }
+
+  function validateRelaxModalAnswers(answers = {}) {
+    const fields = [
+      ["currentFeel", "igm-relax-current", "how you currently feel"],
+      ["desiredFeel", "igm-relax-want", "how you want to feel"],
+      ["alternativesNow", "igm-relax-other", "what else could help you now"],
+      ["tomorrowNeed", "igm-relax-tomorrow", "what you need to do to make sure you feel good tomorrow"],
+      ["durationWhy", "igm-relax-why", "why this is an appropriate session length for you"]
+    ];
+
+    for (const [key, fieldId, label] of fields) {
+      if (nonWhitespaceLength(answers[key]) < RELAX_TEXT_MIN_NON_WHITESPACE) {
+        return {
+          ok: false,
+          message: `Please elaborate more on ${label}.`,
+          fieldId
+        };
+      }
+    }
+
+    return { ok: true };
   }
 
   function applyLearnSearchRedirect(session, { force = false } = {}) {
@@ -276,6 +315,22 @@
           grid-template-columns: 1fr;
           gap: 14px;
         }
+        .ig-helper-note {
+          max-width: 760px;
+          margin: 18px auto 0;
+          padding: 14px 16px;
+          border-radius: 18px;
+          border: 1px solid #e5e7eb;
+          background: #f8fafc;
+          color: #64748b;
+          text-align: center;
+          font-size: 15px;
+          line-height: 1.45;
+        }
+        .ig-helper-note strong {
+          color: #334155;
+          font-weight: 650;
+        }
         .ig-btn {
           width: 100%;
           box-sizing: border-box;
@@ -337,6 +392,10 @@
           <button id="ig-start-learn" class="ig-btn ig-btn-primary">Learn</button>
           <button id="ig-start-relax" class="ig-btn">Relax</button>
         </div>
+        <p class="ig-helper-note">
+          Want to start or edit a session later?<br/>
+          Click the menu bar's puzzle piece icon, then click <strong>Thread</strong>.
+        </p>
       </div>
     `);
     document.getElementById("ig-start-learn")?.addEventListener("click", () => renderSessionModal("learn"));
@@ -349,8 +408,12 @@
     const purposeReflection = document.getElementById("igm-learn-purpose")?.value?.trim() || "";
     const timingReflection = document.getElementById("igm-learn-timing")?.value?.trim() || "";
     const err = document.getElementById("igm-error");
-    if (!topic || !goal) {
-      if (err) err.textContent = "Please enter both topic and goal.";
+    if (!topic) {
+      showModalError("Please enter the topic(s) you want to learn.", "igm-learn-topic");
+      return;
+    }
+    if (!goal) {
+      showModalError("Please enter your goal for this session.", "igm-learn-goal");
       return;
     }
 
@@ -381,8 +444,9 @@
     const durationWhy = document.getElementById("igm-relax-why")?.value?.trim() || "";
     const err = document.getElementById("igm-error");
 
-    if (!desiredFeel) {
-      if (err) err.textContent = "Please enter how you want to feel.";
+    const validation = validateRelaxModalAnswers({ currentFeel, desiredFeel, alternativesNow, tomorrowNeed, durationWhy });
+    if (!validation.ok) {
+      showModalError(validation.message, validation.fieldId);
       return;
     }
 
@@ -477,6 +541,10 @@
           border-color: #a5b4fc;
           box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.14);
         }
+        .igm-input-error {
+          border-color: #ef4444;
+          box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.12);
+        }
         .igm-btn {
           margin-top: 18px;
           font-weight: 650;
@@ -529,19 +597,19 @@
     const learnFields = `
       <h2 class="igm-title">Start Learn Session</h2>
       <div class="igm-field">
-        <label class="igm-label" for="igm-learn-topic">List topic(s) you want to learn about in this session.</label>
+        <label class="igm-label" for="igm-learn-topic">What topic(s) do I want to learn about in this session?</label>
         <input class="igm-input" id="igm-learn-topic" placeholder="e.g. VScode setup, python, AI coding tools" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-learn-goal">What is your goal to reach by the end of the session?</label>
+        <label class="igm-label" for="igm-learn-goal">What is my goal to reach by the end of this session?</label>
         <input class="igm-input" id="igm-learn-goal" placeholder="e.g. Build one practical example" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-learn-purpose">What is the purpose of this learning?</label>
+        <label class="igm-label" for="igm-learn-purpose">What is my purpose for this learning?</label>
         <textarea class="igm-textarea" id="igm-learn-purpose" placeholder="Short reflection"></textarea>
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-learn-timing">Is now the appropriate time?</label>
+        <label class="igm-label" for="igm-learn-timing">Is now an appropriate time for this learning?</label>
         <textarea class="igm-textarea" id="igm-learn-timing" placeholder="Short reflection"></textarea>
       </div>
       <button class="igm-btn igm-btn-primary" id="igm-start-learn">Start Learn</button>
@@ -549,27 +617,27 @@
     const relaxFields = `
       <h2 class="igm-title">Start Relax Session</h2>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-current">How do you currently feel?</label>
+        <label class="igm-label" for="igm-relax-current">How do I currently feel?</label>
         <input class="igm-input" id="igm-relax-current" placeholder="e.g. Tired, anxious" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-want">How do you want to feel?</label>
+        <label class="igm-label" for="igm-relax-want">How do I want to feel?</label>
         <input class="igm-input" id="igm-relax-want" placeholder="e.g. Calm and recharged" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-other">What else could help you feel better now besides YouTube?</label>
+        <label class="igm-label" for="igm-relax-other">What else could help me feel better now besides YouTube?</label>
         <input class="igm-input" id="igm-relax-other" placeholder="e.g. Stretching or a short walk" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-tomorrow">What do you need to do to make sure you feel good tomorrow?</label>
+        <label class="igm-label" for="igm-relax-tomorrow">What do I need to do to make sure I feel good tomorrow?</label>
         <input class="igm-input" id="igm-relax-tomorrow" placeholder="e.g. Sleep by 11pm" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-duration">How long should this session be (minutes)?</label>
+        <label class="igm-label" for="igm-relax-duration">How long should my session be (minutes)?</label>
         <input class="igm-input" id="igm-relax-duration" type="number" min="1" max="240" value="30" />
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-why">Why is that an appropriate session length?</label>
+        <label class="igm-label" for="igm-relax-why">Why is this an appropriate session length for me?</label>
         <textarea class="igm-textarea" id="igm-relax-why" placeholder="Short reflection"></textarea>
       </div>
       <button class="igm-btn igm-btn-primary" id="igm-start-relax">Start Relax</button>
@@ -1121,6 +1189,18 @@
     return text;
   }
 
+  function getBgeIntentSessionSignature(session) {
+    if (!session) return null;
+    if (session.mode !== "learn") return `non-learn:${session.id || ""}`;
+    return JSON.stringify({
+      id: session.id || "",
+      topic: session.learnAnswers?.topic || "",
+      goal: session.learnAnswers?.goal || "",
+      purposeReflection: session.learnAnswers?.purposeReflection || "",
+      timingReflection: session.learnAnswers?.timingReflection || ""
+    });
+  }
+
   async function logCalibration(payload) {
     await send("LOG_CALIBRATION_EVENT", payload);
   }
@@ -1190,10 +1270,12 @@
     if (isStaleRun()) return;
     const state = stateRes?.state;
     const activeSessionId = state?.activeSession?.id || null;
-    if (activeSessionId !== lastBgeIntentSessionId) {
+    const activeSessionSignature = getBgeIntentSessionSignature(state?.activeSession);
+    if (activeSessionId !== lastBgeIntentSessionId || activeSessionSignature !== lastBgeIntentSessionSignature) {
       intentCache.clear();
       globalThis.IntentGuardBGE?.clearIntentEmbeddingCache?.();
       lastBgeIntentSessionId = activeSessionId;
+      lastBgeIntentSessionSignature = activeSessionSignature;
     }
     const reloadFallbackAfterMs = Math.round(Math.min(15000, Math.max(500, Number(state?.settings?.reloadFallbackAfterMs) || DEFAULT_RELOAD_FALLBACK_AFTER_MS)));
     const metaGateTimeoutMs = Math.round(Math.min(15000, Math.max(1000, Number(state?.settings?.metaGateTimeoutMs) || DEFAULT_META_GATE_TIMEOUT_MS)));

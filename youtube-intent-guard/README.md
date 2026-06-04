@@ -1,4 +1,6 @@
-# YouTube Intent Guard (MVP + Semantic Upgrade)
+# Thread — Focus for YouTube
+
+![Thread logo](assets/Thread.png)
 
 A Chrome/Edge Manifest V3 extension to enforce intentional YouTube use.
 
@@ -20,10 +22,19 @@ A Chrome/Edge Manifest V3 extension to enforce intentional YouTube use.
 - No external inference API calls
 
 ## Semantic Behavior
-- Learn intent text uses BGE's retrieval query instruction with required labeled session fields: `Learning goal: {goal}. Topics: {topic}.`
+- Learn intent text uses BGE's retrieval query instruction with required session fields: `I want to learn about {topic}. This is my goal: {goal}.`
 - Video text uses lightly labeled metadata fields: `Title: {title}` and `Description: {description}`
 - Semantic scoring is mandatory before Learn verdict
+- Session intent embeddings are cached for the active Learn session and reused across video checks when both the session ID and normalized intent text match
+- The cached session intent embedding is cleared when the active session changes or ends
+- Video metadata embeddings are still computed per video
 - Keyword score is retained as diagnostic telemetry only
+
+## Semantic Performance
+- BGE model loading/warmup is separate from per-video relevance scoring
+- The first scored video in a Learn session embeds both the session intent and the video metadata
+- Later videos in the same Learn session reuse the cached session intent embedding and only embed the new video metadata
+- BGE score/status metadata may include cache fields such as the cached session ID and cached intent text for debugging
 
 ## Install (Developer Mode)
 1. Open `chrome://extensions` (or `edge://extensions`)
