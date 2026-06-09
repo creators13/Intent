@@ -59,11 +59,11 @@
   }
 
   function classifySemanticScore(score, settings = {}) {
-    const relevantMin = settings.semanticRelevantMin ?? 0.04;
-    const borderlineMin = settings.semanticBorderlineMin ?? 0.02;
+    const relevantMin = settings.semanticRelevantMin ?? 0.6;
+    const borderlineMin = settings.semanticBorderlineMin ?? 0.55;
 
     if (score > relevantMin) return "relevant";
-    if (score >= borderlineMin) return "borderline";
+    if (score > borderlineMin) return "borderline";
     return "irrelevant";
   }
 

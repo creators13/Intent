@@ -1,4 +1,4 @@
-import { getState, startSession, updateActiveSession, endSession, logCalibrationEvent, updateSemanticThresholds, updateEvaluationSettings, updateState } from "./storage/storage.js";
+import { getState, startSession, endSession, logCalibrationEvent, updateSemanticThresholds, updateEvaluationSettings, updateState } from "./storage/storage.js";
 
 function nowIso() {
   return new Date().toISOString();
@@ -37,7 +37,7 @@ function validateRelaxAnswers(relaxAnswers = {}) {
     ["currentFeel", "how you currently feel"],
     ["desiredFeel", "how you want to feel"],
     ["alternativesNow", "what else can help you now"],
-    ["tomorrowNeed", "what you need to do to make sure you feel good tomorrow"],
+    ["tomorrowNeed", "what you are going to do after this relax session and why it is important to follow through"],
     ["durationWhy", "why this is the right length for you"]
   ];
 
@@ -65,8 +65,66 @@ async function scheduleRelaxWarnings(activeSession, warnings) {
 }
 
 async function closeYoutubeTabs() {
-  const tabs = await chrome.tabs.query({ url: "*://www.youtube.com/*" });
-  if (tabs.length) await chrome.tabs.remove(tabs.map((t) => t.id));
+  const tabs = await chrome.tabs.query({ url: "https://www.youtube.com/*" });
+  const tabIds = tabs.map((t) => t.id).filter((id) => typeof id === "number");
+  if (tabIds.length) {
+    try {
+      await chrome.tabs.remove(tabIds);
+    } catch (err) {
+      console.warn("Intent Guard: could not close one or more YouTube tabs", err);
+    }
+  }
+  return tabIds.length;
+}
+
+async function notifyYoutubeTabs(message) {
+  const tabs = await chrome.tabs.query({ url: "https://www.youtube.com/*" });
+  const results = [];
+
+  for (const tab of tabs) {
+    if (typeof tab.id !== "number") continue;
+    try {
+      await chrome.tabs.sendMessage(tab.id, message);
+      results.push({ tabId: tab.id, ok: true });
+    } catch (err) {
+      results.push({ tabId: tab.id, ok: false, error: String(err?.message || err || "unknown") });
+      console.warn("Intent Guard: could not notify YouTube tab", tab.id, err);
+    }
+  }
+
+  return results;
+}
+
+async function completeActiveSession(state, completionCheck = null) {
+  const active = state.activeSession;
+  if (!active) return { ok: false, error: "No active session." };
+
+  const durationMinutes = Math.max(1, Math.round((Date.now() - active.startTime) / 60_000));
+  const summary = {
+    ...active,
+    endedAtIso: nowIso(),
+    durationMinutes,
+    completionCheck
+  };
+
+  await endSession(summary);
+  await updateState((s) => ({
+    ...s,
+    evaluationRuntime: {
+      ...(s.evaluationRuntime || {}),
+      lastSnapshotByTab: {}
+    },
+    evaluationDebug: {
+      ...(s.evaluationDebug || {}),
+      current: null,
+      lastEvent: null,
+      currentWinner: null,
+      logsByUrl: {}
+    }
+  }));
+  await chrome.alarms.clearAll();
+  const closedTabCount = await closeYoutubeTabs();
+  return { ok: true, summary, closedTabCount };
 }
 
 chrome.runtime.onInstalled.addListener(async () => {
@@ -134,94 +192,16 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       return sendResponse({ ok: true, session });
     }
 
-    if (message.type === "UPDATE_ACTIVE_SESSION") {
-      const active = state.activeSession;
-      const payload = message.payload || {};
-      if (!active) return sendResponse({ ok: false, error: "No active session." });
-      if (!payload.mode || payload.mode !== active.mode) {
-        return sendResponse({ ok: false, error: "Session mode mismatch." });
-      }
-
-      const nextState = await updateActiveSession((cur) => {
-        if (!cur || cur.mode !== active.mode) return cur;
-
-        if (cur.mode === "learn") {
-          const learnAnswers = payload.learnAnswers || {};
-          const validation = validateLearnAnswers(learnAnswers);
-          if (!validation.ok) return cur;
-          return {
-            ...cur,
-            learnAnswers: {
-              ...(cur.learnAnswers || {}),
-              topic: String(learnAnswers.topic || "").trim(),
-              goal: String(learnAnswers.goal || "").trim(),
-              purposeReflection: String(learnAnswers.purposeReflection || "").trim(),
-              timingReflection: String(learnAnswers.timingReflection || "").trim()
-            },
-            updatedAtIso: nowIso()
-          };
-        }
-
-        const relaxAnswers = payload.relaxAnswers || {};
-        const validation = validateRelaxAnswers(relaxAnswers);
-        if (!validation.ok) return cur;
-        return {
-          ...cur,
-          relaxAnswers: {
-            ...(cur.relaxAnswers || {}),
-            currentFeel: String(relaxAnswers.currentFeel || "").trim(),
-            desiredFeel: String(relaxAnswers.desiredFeel || "").trim(),
-            alternativesNow: String(relaxAnswers.alternativesNow || "").trim(),
-            tomorrowNeed: String(relaxAnswers.tomorrowNeed || "").trim(),
-            durationWhy: String(relaxAnswers.durationWhy || "").trim()
-          },
-          updatedAtIso: nowIso()
-        };
-      });
-
-      if (active.mode === "learn") {
-        const validation = validateLearnAnswers(payload.learnAnswers || {});
-        if (!validation.ok) return sendResponse(validation);
-      }
-
-      if (active.mode === "relax") {
-        const validation = validateRelaxAnswers(payload.relaxAnswers || {});
-        if (!validation.ok) return sendResponse(validation);
-      }
-
-      return sendResponse({ ok: true, session: nextState.activeSession });
+    if (message.type === "END_SESSION") {
+      const result = await completeActiveSession(state, message.payload?.completionCheck || null);
+      return sendResponse(result);
     }
 
-    if (message.type === "END_SESSION") {
-      const active = state.activeSession;
-      if (!active) return sendResponse({ ok: false, error: "No active session." });
-
-      const durationMinutes = Math.max(1, Math.round((Date.now() - active.startTime) / 60_000));
-      const summary = {
-        ...active,
-        endedAtIso: nowIso(),
-        durationMinutes,
-        completionCheck: message.payload?.completionCheck || null
-      };
-
-      await endSession(summary);
-      await updateState((s) => ({
-        ...s,
-        evaluationRuntime: {
-          ...(s.evaluationRuntime || {}),
-          lastSnapshotByTab: {}
-        },
-        evaluationDebug: {
-          ...(s.evaluationDebug || {}),
-          current: null,
-          lastEvent: null,
-          currentWinner: null,
-          logsByUrl: {}
-        }
-      }));
-      await chrome.alarms.clearAll();
-      await closeYoutubeTabs();
-      return sendResponse({ ok: true, summary });
+    if (message.type === "END_SESSION_FROM_BLOCKER") {
+      const result = await completeActiveSession(state, message.payload?.completionCheck || {
+        note: "Ended expired Relax session from timeout blocker."
+      });
+      return sendResponse(result);
     }
 
     if (message.type === "OPEN_DASHBOARD") {
@@ -344,9 +324,12 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
     await chrome.notifications.create({
       type: "basic",
       title: "Session Complete",
-      message: "Time is up. Reflect and close YouTube.",
+      message: "Time is up. Open YouTube to review your commitment and end the session.",
       iconUrl: "assets/icon48.png"
     });
-    await closeYoutubeTabs();
+    await notifyYoutubeTabs({
+      type: "RELAX_SESSION_EXPIRED",
+      payload: { session }
+    });
   }
 });

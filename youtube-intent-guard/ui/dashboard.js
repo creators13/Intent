@@ -26,11 +26,11 @@ function recommendThresholds(events) {
 
   if (scores.length < 15) return null;
 
-  const borderlineMin = Number((quantile(scores, 0.35) ?? 0.02).toFixed(3));
-  const relevantMin = Number((quantile(scores, 0.7) ?? 0.04).toFixed(3));
+  const borderlineMin = Number((quantile(scores, 0.35) ?? 0.55).toFixed(3));
+  const relevantMin = Number((quantile(scores, 0.7) ?? 0.6).toFixed(3));
 
   return relevantMin <= borderlineMin
-    ? { borderlineMin, relevantMin: Number((borderlineMin + 0.08).toFixed(3)) }
+    ? { borderlineMin, relevantMin: Number((borderlineMin + 0.05).toFixed(3)) }
     : { borderlineMin, relevantMin };
 }
 
@@ -45,8 +45,8 @@ function recommendThresholds(events) {
   document.getElementById("learn-count").textContent = metrics.sessionsLearn || 0;
   document.getElementById("relax-count").textContent = metrics.sessionsRelax || 0;
 
-  document.getElementById("cur-relevant").textContent = (settings.semanticRelevantMin ?? 0.04).toFixed(2);
-  document.getElementById("cur-borderline").textContent = (settings.semanticBorderlineMin ?? 0.02).toFixed(2);
+  document.getElementById("cur-relevant").textContent = (settings.semanticRelevantMin ?? 0.6).toFixed(2);
+  document.getElementById("cur-borderline").textContent = (settings.semanticBorderlineMin ?? 0.55).toFixed(2);
   document.getElementById("calibration-samples").textContent = String(events.length);
 
   const reco = recommendThresholds(events);

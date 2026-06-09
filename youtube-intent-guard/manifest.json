@@ -35,6 +35,7 @@
   "web_accessible_resources": [
     {
       "resources": [
+        "assets/Thread_logo_only.png",
         "content/youtube-page-bridge.js",
         "rules/bge-engine.js",
         "models/*",

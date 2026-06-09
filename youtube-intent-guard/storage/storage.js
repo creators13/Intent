@@ -1,13 +1,13 @@
 const STORAGE_KEY = "intentGuardState";
-const SETTINGS_VERSION = 3;
+const SETTINGS_VERSION = 4;
 
 const DEFAULT_STATE = {
   activeSession: null,
   sessionHistory: [],
   settings: {
     warnings: [15, 10, 5, 1],
-    semanticBorderlineMin: 0.04,
-    semanticRelevantMin: 0.08,
+    semanticBorderlineMin: 0.55,
+    semanticRelevantMin: 0.6,
     reloadFallbackAfterMs: 3000,
     metaGateTimeoutMs: 5000,
     settingsVersion: SETTINGS_VERSION,
@@ -80,18 +80,18 @@ export async function getState() {
   const needsMigration = (settings.settingsVersion || 0) < SETTINGS_VERSION;
 
   if (needsMigration) {
-    settings.semanticRelevantMin = 0.08;
-    settings.semanticBorderlineMin = 0.04;
+    settings.semanticRelevantMin = 0.6;
+    settings.semanticBorderlineMin = 0.55;
     settings.reloadFallbackAfterMs = 3000;
     settings.metaGateTimeoutMs = 5000;
     settings.settingsVersion = SETTINGS_VERSION;
   }
 
   if (!(typeof settings.semanticRelevantMin === "number") || !Number.isFinite(settings.semanticRelevantMin)) {
-    settings.semanticRelevantMin = 0.08;
+    settings.semanticRelevantMin = 0.6;
   }
   if (!(typeof settings.semanticBorderlineMin === "number") || !Number.isFinite(settings.semanticBorderlineMin)) {
-    settings.semanticBorderlineMin = Number((settings.semanticRelevantMin * 0.5).toFixed(3));
+    settings.semanticBorderlineMin = Number((settings.semanticRelevantMin - 0.05).toFixed(3));
   }
 
   if (!(typeof settings.reloadFallbackAfterMs === "number") || !Number.isFinite(settings.reloadFallbackAfterMs)) {
@@ -101,8 +101,8 @@ export async function getState() {
     settings.metaGateTimeoutMs = 5000;
   }
 
-  settings.semanticRelevantMin = Math.min(0.2, Math.max(0.05, settings.semanticRelevantMin));
-  settings.semanticBorderlineMin = Number((settings.semanticRelevantMin * 0.5).toFixed(3));
+  settings.semanticRelevantMin = Math.min(0.65, Math.max(0.55, settings.semanticRelevantMin));
+  settings.semanticBorderlineMin = Number((settings.semanticRelevantMin - 0.05).toFixed(3));
   settings.reloadFallbackAfterMs = Math.round(Math.min(15000, Math.max(500, settings.reloadFallbackAfterMs)));
   settings.metaGateTimeoutMs = Math.round(Math.min(15000, Math.max(1000, settings.metaGateTimeoutMs)));
 
@@ -130,17 +130,6 @@ export async function startSession(session) {
     ...state,
     activeSession: session
   }));
-}
-
-export async function updateActiveSession(updater) {
-  return updateState((state) => {
-    if (!state.activeSession) return state;
-    const nextActiveSession = updater(state.activeSession, state);
-    return {
-      ...state,
-      activeSession: nextActiveSession
-    };
-  });
 }
 
 export async function endSession(summary) {
@@ -180,18 +169,22 @@ export async function logCalibrationEvent(event) {
 }
 
 export async function updateSemanticThresholds({ relevantMin, borderlineMin }) {
+  const normalizedRelevant = Math.min(0.65, Math.max(0.55, Number(relevantMin)));
+  const normalizedBorderline = Number.isFinite(Number(borderlineMin))
+    ? Math.min(0.6, Math.max(0.5, Number(borderlineMin)))
+    : Number((normalizedRelevant - 0.05).toFixed(3));
   return updateState((state) => ({
     ...state,
     settings: {
       ...state.settings,
-      semanticRelevantMin: relevantMin,
-      semanticBorderlineMin: borderlineMin
+      semanticRelevantMin: normalizedRelevant,
+      semanticBorderlineMin: Number(normalizedBorderline.toFixed(3))
     }
   }));
 }
 
 export async function updateEvaluationSettings({ relevantMin, reloadFallbackAfterMs, metaGateTimeoutMs }) {
-  const normalizedRelevant = Math.min(0.2, Math.max(0.05, Number(relevantMin)));
+  const normalizedRelevant = Math.min(0.65, Math.max(0.55, Number(relevantMin)));
   const normalizedReloadMs = Math.round(Math.min(15000, Math.max(500, Number(reloadFallbackAfterMs))));
   const normalizedTimeoutMs = Math.round(Math.min(15000, Math.max(1000, Number(metaGateTimeoutMs))));
   return updateState((state) => ({
@@ -199,7 +192,7 @@ export async function updateEvaluationSettings({ relevantMin, reloadFallbackAfte
     settings: {
       ...state.settings,
       semanticRelevantMin: normalizedRelevant,
-      semanticBorderlineMin: Number((normalizedRelevant * 0.5).toFixed(3)),
+      semanticBorderlineMin: Number((normalizedRelevant - 0.05).toFixed(3)),
       reloadFallbackAfterMs: normalizedReloadMs,
       metaGateTimeoutMs: normalizedTimeoutMs
     }

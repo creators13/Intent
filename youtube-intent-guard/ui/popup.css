@@ -95,7 +95,10 @@ textarea {
 
 textarea {
   min-height: 104px;
-  resize: vertical;
+  overflow: hidden;
+  resize: none;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 input:focus,
@@ -205,6 +208,33 @@ button.secondary:hover {
   margin-top: 8px;
   font-size: 13px;
   color: #475569;
+}
+
+.session-details {
+  display: grid;
+  gap: 12px;
+}
+
+.session-detail {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #f8fafc;
+}
+
+.session-detail-label {
+  margin-bottom: 6px;
+  color: #475569;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.session-detail-value {
+  color: #111827;
+  font-size: 15px;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
 }
 
 .form-error {

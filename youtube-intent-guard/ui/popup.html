@@ -10,16 +10,20 @@
       <h1>Thread</h1>
       <section id="status"></section>
       <div id="popup-error" class="form-error" hidden></div>
+      <section id="active-session-card" class="card" hidden>
+        <h2>Current Session</h2>
+        <div id="active-session-details" class="session-details"></div>
+      </section>
 
       <section id="learn-card" class="card">
         <h2>Start Learn Session</h2>
         <div class="field">
           <label for="learn-topic">What topic(s) do I want to learn about in this session?</label>
-          <input id="learn-topic" placeholder="e.g. Python decorators" />
+          <textarea id="learn-topic" class="autogrow-textarea" placeholder="e.g. Python decorators"></textarea>
         </div>
         <div class="field">
           <label for="learn-goal">What is my goal to reach by the end of this session?</label>
-          <input id="learn-goal" placeholder="e.g. Build and understand one example" />
+          <textarea id="learn-goal" class="autogrow-textarea" placeholder="e.g. Build and understand one example"></textarea>
         </div>
         <div class="field">
           <label for="learn-purpose">What is my purpose for this learning?</label>
@@ -34,22 +38,21 @@
 
       <section id="relax-card" class="card">
         <h2>Start Relax Session</h2>
-        <div id="relax-time-remaining" class="settings-note" hidden></div>
         <div class="field">
           <label for="relax-current">How do I currently feel?</label>
-          <input id="relax-current" placeholder="e.g. Stressed, tired" />
+          <textarea id="relax-current" class="autogrow-textarea" placeholder="e.g. Stressed, tired"></textarea>
         </div>
         <div class="field">
           <label for="relax-want">How do I want to feel?</label>
-          <input id="relax-want" placeholder="e.g. Calm and refreshed" />
+          <textarea id="relax-want" class="autogrow-textarea" placeholder="e.g. Calm and refreshed"></textarea>
         </div>
         <div class="field">
           <label for="relax-other">What else can help me now?</label>
-          <input id="relax-other" placeholder="e.g. Walk, stretch, water" />
+          <textarea id="relax-other" class="autogrow-textarea" placeholder="e.g. Walk, stretch, water"></textarea>
         </div>
         <div class="field">
-          <label for="relax-tomorrow">What helps me feel good tomorrow?</label>
-          <input id="relax-tomorrow" placeholder="e.g. Sleep by 11pm" />
+          <label for="relax-tomorrow">What am I going to do after this relax session? Why is it important that I follow through?</label>
+          <textarea id="relax-tomorrow" class="autogrow-textarea" placeholder="e.g. Sleep by 11pm"></textarea>
         </div>
         <div id="relax-duration-field" class="field">
           <label for="relax-duration">How long should my session be (minutes)?</label>
@@ -94,7 +97,7 @@
         <div class="field">
           <label for="strictness-slider">Strictness (left = stricter, right = more lenient)</label>
           <input id="strictness-slider" type="range" min="0" max="100" step="1" value="80" />
-          <div id="strictness-summary" class="settings-note">Relevant cutoff: 0.080 · Borderline cutoff: 0.040</div>
+          <div id="strictness-summary" class="settings-note">Relevant cutoff: 0.600 · Borderline cutoff: 0.550</div>
         </div>
         <button id="save-eval-settings">Save Evaluation Settings</button>
       </section>

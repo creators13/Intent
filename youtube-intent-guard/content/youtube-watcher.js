@@ -15,14 +15,27 @@
   let lastBgeIntentSessionSignature = null;
   let listenersBound = false;
   let mediaWasAutoMuted = false;
+  let expiredRelaxFullscreenSession = null;
+  let expiredRelaxFullscreenHandlerBound = false;
   const autoPausedMedia = new WeakSet();
-  const lastEvaluationAtByVideoId = new Map();
-  const EVALUATION_COOLDOWN_MS = 5000;
+  let appliedDecisionLock = null;
   const DEFAULT_RELOAD_FALLBACK_AFTER_MS = 3000;
   const DEFAULT_META_GATE_TIMEOUT_MS = 5000;
   const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
   const recentShortsUrls = [];
   const MAX_SHORTS_HISTORY = 20;
+
+  function markDecisionApplied(videoId, verdict, { sessionId = null, sessionSignature = null } = {}) {
+    if (!videoId) return;
+    appliedDecisionLock = {
+      videoId,
+      verdict,
+      sessionId,
+      sessionSignature,
+      appliedAt: Date.now()
+    };
+    evaluationResolutionEpoch += 1;
+  }
 
   function reloadFallbackKeyForVideo(videoId) {
     return `ig-reload-fallback:${videoId || "unknown"}`;
@@ -126,7 +139,7 @@
       ["currentFeel", "igm-relax-current", "how you currently feel"],
       ["desiredFeel", "igm-relax-want", "how you want to feel"],
       ["alternativesNow", "igm-relax-other", "what else could help you now"],
-      ["tomorrowNeed", "igm-relax-tomorrow", "what you need to do to make sure you feel good tomorrow"],
+      ["tomorrowNeed", "igm-relax-tomorrow", "what you are going to do after this relax session and why it is important to follow through"],
       ["durationWhy", "igm-relax-why", "why this is an appropriate session length for you"]
     ];
 
@@ -141,6 +154,83 @@
     }
 
     return { ok: true };
+  }
+
+  function escapeHtml(value = "") {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function isRelaxSessionExpired(session) {
+    return session?.mode === "relax" && Number(session.endTime || 0) > 0 && Date.now() >= Number(session.endTime);
+  }
+
+  function getRelaxDurationMinutes(session) {
+    const answerDuration = Number(session?.relaxAnswers?.durationMinutes);
+    if (Number.isFinite(answerDuration) && answerDuration > 0) return Math.round(answerDuration);
+
+    const start = Number(session?.startTime || 0);
+    const end = Number(session?.endTime || 0);
+    if (Number.isFinite(start) && Number.isFinite(end) && end > start) {
+      return Math.max(1, Math.round((end - start) / 60_000));
+    }
+
+    return 0;
+  }
+
+  async function renderExpiredRelaxSessionBlocker(session, options = {}) {
+    pauseAndMuteMedia();
+
+    const duration = getRelaxDurationMinutes(session);
+    const durationText = duration > 0 ? `${duration} minute${duration === 1 ? "" : "s"}` : "your planned time";
+    const commitment = escapeHtml(session?.relaxAnswers?.tomorrowNeed || "your post-session commitment");
+    const alternatives = escapeHtml(session?.relaxAnswers?.alternativesNow || "the strategies you wrote down");
+
+    await renderOverlay(`
+      <div class="ig-card">
+        <h2 class="ig-title">Your relax session of ${durationText} is done now!</h2>
+        <p class="ig-copy">Remember your commitment to <strong>${commitment}</strong>.</p>
+        <p class="ig-copy">If you still don't feel great, you can try some of these strategies instead of YouTube: <strong>${alternatives}</strong>.</p>
+        <div class="ig-actions">
+          <button id="ig-end-expired-relax" class="ig-btn ig-btn-primary">End session</button>
+        </div>
+        <p id="ig-expired-relax-error" class="ig-helper-note" hidden></p>
+      </div>
+    `, "intent-guard-expired-relax", options);
+
+    document.getElementById("ig-end-expired-relax")?.addEventListener("click", async () => {
+      const btn = document.getElementById("ig-end-expired-relax");
+      const error = document.getElementById("ig-expired-relax-error");
+      if (btn) {
+        btn.disabled = true;
+        btn.textContent = "Ending session…";
+      }
+      if (error) {
+        error.hidden = true;
+        error.textContent = "";
+      }
+
+      try {
+        const res = await send("END_SESSION_FROM_BLOCKER", {
+          completionCheck: { note: "Ended expired Relax session from timeout blocker." }
+        });
+
+        if (!res?.ok) throw new Error(res?.error || "Could not end session.");
+      } catch (err) {
+        if (btn) {
+          btn.disabled = false;
+          btn.textContent = "End session";
+        }
+        if (error) {
+          error.hidden = false;
+          error.textContent = `Could not end the session. Please try again or use the Thread popup. ${String(err?.message || err || "")}`;
+        }
+      }
+    });
   }
 
   function applyLearnSearchRedirect(session, { force = false } = {}) {
@@ -160,10 +250,16 @@
   }
 
   function clearAllGuardOverlays() {
+    unbindExpiredRelaxFullscreenTransition();
     removeOverlay("intent-guard-overlay");
     removeOverlay("intent-guard-loading");
     removeOverlay("intent-guard-borderline");
     removeOverlay("intent-guard-session-modal");
+    removeOverlay("intent-guard-expired-relax");
+  }
+
+  function clearTransientEvaluationOverlays() {
+    removeOverlay("intent-guard-loading");
   }
 
   function pauseAndMuteMedia() {
@@ -194,6 +290,74 @@
       }
     }
     mediaWasAutoMuted = false;
+  }
+
+  function unbindExpiredRelaxFullscreenTransition() {
+    if (!expiredRelaxFullscreenHandlerBound) return;
+    document.removeEventListener("fullscreenchange", handleExpiredRelaxFullscreenChange);
+    expiredRelaxFullscreenHandlerBound = false;
+    expiredRelaxFullscreenSession = null;
+  }
+
+  function bindExpiredRelaxFullscreenTransition(session) {
+    expiredRelaxFullscreenSession = session;
+    if (expiredRelaxFullscreenHandlerBound) return;
+    expiredRelaxFullscreenHandlerBound = true;
+    document.addEventListener("fullscreenchange", handleExpiredRelaxFullscreenChange);
+  }
+
+  async function handleExpiredRelaxFullscreenChange() {
+    if (document.fullscreenElement) return;
+    const session = expiredRelaxFullscreenSession;
+    if (!session || !isRelaxSessionExpired(session)) {
+      unbindExpiredRelaxFullscreenTransition();
+      return;
+    }
+    if (!document.getElementById("intent-guard-expired-relax")) {
+      unbindExpiredRelaxFullscreenTransition();
+      return;
+    }
+
+    unbindExpiredRelaxFullscreenTransition();
+    await renderExpiredRelaxSessionBlocker(session);
+  }
+
+  async function renderExpiredRelaxSessionBlockerFullscreenSafe(session) {
+    pauseAndMuteMedia();
+
+    const fullscreenEl = document.fullscreenElement;
+    if (fullscreenEl && typeof document.exitFullscreen === "function") {
+      try {
+        await document.exitFullscreen();
+      } catch {
+        // Best effort only. If fullscreen remains active, mount the blocker
+        // inside the fullscreen element below so it is still visible.
+      }
+    }
+
+    if (document.fullscreenElement) {
+      await renderExpiredRelaxSessionBlocker(session, { target: document.fullscreenElement });
+      bindExpiredRelaxFullscreenTransition(session);
+      return;
+    }
+
+    await renderExpiredRelaxSessionBlocker(session);
+  }
+
+  async function showExpiredRelaxSessionNow(session) {
+    if (!isRelaxSessionExpired(session)) {
+      return { ok: false, error: "Relax session is not expired." };
+    }
+
+    latestEvaluationRunId += 1;
+    nextCoordinatorId();
+    if (scheduledEvalTimer) {
+      clearTimeout(scheduledEvalTimer);
+      scheduledEvalTimer = null;
+    }
+
+    await renderExpiredRelaxSessionBlockerFullscreenSafe(session);
+    return { ok: true };
   }
 
   function handleGoBackNavigation() {
@@ -288,6 +452,12 @@
           overflow: hidden;
           box-shadow: 0 18px 48px rgba(2, 6, 23, 0.22);
         }
+        .ig-brand-logo {
+          display: block;
+          width: min(330px, 72vw);
+          height: auto;
+          margin: 0 auto 18px;
+        }
         .ig-title {
           margin: 0 0 14px;
           text-align: center;
@@ -362,7 +532,7 @@
     `;
   }
 
-  async function renderOverlay(html, id = "intent-guard-overlay") {
+  async function renderOverlay(html, id = "intent-guard-overlay", options = {}) {
     clearAllGuardOverlays();
     const overlay = document.createElement("div");
     overlay.id = id;
@@ -375,7 +545,7 @@
     overlay.style.alignItems = "center";
     overlay.style.justifyContent = "center";
     overlay.innerHTML = `${baseOverlayStyles()}<div class="ig-shell">${html}</div>`;
-    const target = (await waitForBody()) || document.documentElement;
+    const target = options.target || (await waitForBody()) || document.documentElement;
     target.appendChild(overlay);
   }
 
@@ -384,8 +554,10 @@
   }
 
   async function renderSessionTypeBlocker() {
+    const logoUrl = chrome.runtime.getURL("assets/Thread_logo_only.png");
     await renderOverlay(`
       <div class="ig-card">
+        <img class="ig-brand-logo" src="${logoUrl}" alt="Thread" />
         <h2 class="ig-title">Start your YouTube session!</h2>
         <p class="ig-copy">Define your intent first so your watching stays purposeful and enjoyable.</p>
         <div class="ig-actions">
@@ -393,7 +565,7 @@
           <button id="ig-start-relax" class="ig-btn">Relax</button>
         </div>
         <p class="ig-helper-note">
-          Want to start or edit a session later?<br/>
+          Want to view or end your session later?<br/>
           Click the menu bar's puzzle piece icon, then click <strong>Thread</strong>.
         </p>
       </div>
@@ -466,6 +638,19 @@
     scheduleNavigationEvaluation("forced", 60);
   }
 
+  function autoGrowModalTextarea(el) {
+    if (!(el instanceof HTMLTextAreaElement)) return;
+    el.style.height = "auto";
+    el.style.height = `${el.scrollHeight}px`;
+  }
+
+  function bindModalAutoGrowTextareas(root = document) {
+    root.querySelectorAll("textarea").forEach((el) => {
+      autoGrowModalTextarea(el);
+      el.addEventListener("input", () => autoGrowModalTextarea(el));
+    });
+  }
+
   async function renderSessionModal(mode) {
     const sharedStyles = `
       <style>
@@ -532,7 +717,10 @@
         }
         .igm-textarea {
           min-height: 116px;
-          resize: vertical;
+          overflow: hidden;
+          resize: none;
+          white-space: pre-wrap;
+          overflow-wrap: anywhere;
         }
         .igm-input:focus,
         .igm-textarea:focus,
@@ -598,11 +786,11 @@
       <h2 class="igm-title">Start Learn Session</h2>
       <div class="igm-field">
         <label class="igm-label" for="igm-learn-topic">What topic(s) do I want to learn about in this session?</label>
-        <input class="igm-input" id="igm-learn-topic" placeholder="e.g. VScode setup, python, AI coding tools" />
+        <textarea class="igm-input igm-textarea" id="igm-learn-topic" placeholder="e.g. VScode setup, python, AI coding tools"></textarea>
       </div>
       <div class="igm-field">
         <label class="igm-label" for="igm-learn-goal">What is my goal to reach by the end of this session?</label>
-        <input class="igm-input" id="igm-learn-goal" placeholder="e.g. Build one practical example" />
+        <textarea class="igm-input igm-textarea" id="igm-learn-goal" placeholder="e.g. Build one practical example"></textarea>
       </div>
       <div class="igm-field">
         <label class="igm-label" for="igm-learn-purpose">What is my purpose for this learning?</label>
@@ -618,19 +806,19 @@
       <h2 class="igm-title">Start Relax Session</h2>
       <div class="igm-field">
         <label class="igm-label" for="igm-relax-current">How do I currently feel?</label>
-        <input class="igm-input" id="igm-relax-current" placeholder="e.g. Tired, anxious" />
+        <textarea class="igm-input igm-textarea" id="igm-relax-current" placeholder="e.g. Tired, anxious"></textarea>
       </div>
       <div class="igm-field">
         <label class="igm-label" for="igm-relax-want">How do I want to feel?</label>
-        <input class="igm-input" id="igm-relax-want" placeholder="e.g. Calm and recharged" />
+        <textarea class="igm-input igm-textarea" id="igm-relax-want" placeholder="e.g. Calm and recharged"></textarea>
       </div>
       <div class="igm-field">
         <label class="igm-label" for="igm-relax-other">What else could help me feel better now besides YouTube?</label>
-        <input class="igm-input" id="igm-relax-other" placeholder="e.g. Stretching or a short walk" />
+        <textarea class="igm-input igm-textarea" id="igm-relax-other" placeholder="e.g. Stretching or a short walk"></textarea>
       </div>
       <div class="igm-field">
-        <label class="igm-label" for="igm-relax-tomorrow">What do I need to do to make sure I feel good tomorrow?</label>
-        <input class="igm-input" id="igm-relax-tomorrow" placeholder="e.g. Sleep by 11pm" />
+        <label class="igm-label" for="igm-relax-tomorrow">What am I going to do after this relax session? Why is it important that I follow through?</label>
+        <textarea class="igm-input igm-textarea" id="igm-relax-tomorrow" placeholder="e.g. Sleep by 11pm"></textarea>
       </div>
       <div class="igm-field">
         <label class="igm-label" for="igm-relax-duration">How long should my session be (minutes)?</label>
@@ -651,6 +839,8 @@
         <button class="igm-btn igm-btn-secondary" id="igm-cancel">Cancel</button>
       </div>
     `, "intent-guard-session-modal");
+
+    bindModalAutoGrowTextareas(document.getElementById("intent-guard-session-modal") || document);
 
     document.getElementById("igm-cancel")?.addEventListener("click", async () => {
       closeSessionModal();
@@ -1238,9 +1428,11 @@
         }
       : null;
 
-    // Defensive cleanup: every new run starts from a clean overlay slate so
-    // stale UI from prior videos/runs cannot leak into the current page.
-    clearAllGuardOverlays();
+    // Defensive cleanup: each new run may clear transient evaluation UI, but
+    // must not erase persistent decision blockers before a replacement verdict
+    // is ready. Otherwise follow-up YouTube SPA events can briefly show and
+    // immediately remove off-topic/borderline blockers.
+    clearTransientEvaluationOverlays();
 
     if (!isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "coord-abort-not-active", runId, reason, coordinatorId, targetUrl, phase: "aborted" });
@@ -1284,6 +1476,11 @@
       pauseAndMuteMedia();
       await renderSessionTypeBlocker();
       if (isStaleRun()) return;
+      return;
+    }
+
+    if (isRelaxSessionExpired(state.activeSession)) {
+      await renderExpiredRelaxSessionBlockerFullscreenSafe(state.activeSession);
       return;
     }
 
@@ -1345,24 +1542,30 @@
     if (!videoId) return;
 
     const nowMs = Date.now();
-    const lastEvalAt = lastEvaluationAtByVideoId.get(videoId) || 0;
-    const elapsedSinceLastEval = nowMs - lastEvalAt;
-    if (elapsedSinceLastEval >= 0 && elapsedSinceLastEval < EVALUATION_COOLDOWN_MS) {
+    const hasAppliedDecisionForCurrentVideo =
+      appliedDecisionLock?.videoId === videoId &&
+      appliedDecisionLock?.sessionId === activeSessionId &&
+      appliedDecisionLock?.sessionSignature === activeSessionSignature;
+    if (hasAppliedDecisionForCurrentVideo) {
+      const elapsedSinceAppliedDecision = nowMs - Number(appliedDecisionLock?.appliedAt || 0);
       await emitEvalDebug({
-        type: "evaluation-skipped-recent",
+        type: "evaluation-skipped-current-decision-lock",
         runId,
         reason,
         coordinatorId,
         targetUrl,
         targetVideoId: videoId,
         checks: {
-          elapsedSinceLastEval,
-          cooldownMs: EVALUATION_COOLDOWN_MS
+          elapsedSinceAppliedDecision,
+          appliedDecisionLockVideoId: appliedDecisionLock.videoId,
+          appliedDecisionLockVerdict: appliedDecisionLock.verdict,
+          appliedDecisionLockSessionId: appliedDecisionLock.sessionId || "",
+          activeSessionId: activeSessionId || "",
+          skipReason: "current-video-decision-lock"
         }
       });
       return;
     }
-    lastEvaluationAtByVideoId.set(videoId, nowMs);
 
     reloadFallbackTimer = setTimeout(() => {
       if (isStaleRun() || !isActiveCoordinator(coordinatorId) || isCancelledByWinner()) return;
@@ -1586,6 +1789,10 @@
       `);
       clearReloadFallbackTimer();
       restoreMediaIfPausedByThisRun();
+      markDecisionApplied(videoId, "blocked-bge-unavailable", {
+        sessionId: activeSessionId,
+        sessionSignature: activeSessionSignature
+      });
       return;
     }
 
@@ -1594,8 +1801,8 @@
     const activeSemantic = semanticBge;
     const profile = IntentGuardRelevance.buildIntentProfile(state.activeSession);
     const keywordDiag = IntentGuardRelevance.scoreVideoKeywordDiagnostic(meta, profile);
-    const relevantMin = state.settings?.semanticRelevantMin ?? 0.04;
-    const borderlineMin = state.settings?.semanticBorderlineMin ?? 0.02;
+    const relevantMin = state.settings?.semanticRelevantMin ?? 0.6;
+    const borderlineMin = state.settings?.semanticBorderlineMin ?? 0.55;
     const verdict = IntentGuardRelevance.classifySemanticScore(activeSemantic.semanticScore, state.settings);
     const intentTextNormalized = globalThis.IntentGuardBGE?.normalize
       ? globalThis.IntentGuardBGE.normalize(intentText)
@@ -1649,7 +1856,6 @@
         descriptionConfidence: meta.descriptionConfidence || "unknown"
       }
     });
-    evaluationResolutionEpoch += 1;
     if (isStaleRun() || !isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "abort-stale-run-after-scoring", runId, reason, targetUrl, targetVideoId: videoId });
       clearLoadingOverlay();
@@ -1708,18 +1914,24 @@
       removeOverlay();
       unmuteAndResumeMedia();
       clearReloadFallbackTimer();
+      markDecisionApplied(videoId, verdict, {
+        sessionId: activeSessionId,
+        sessionSignature: activeSessionSignature
+      });
       return;
     }
+
+    const escapedGoal = escapeHtml(state.activeSession.learnAnswers.goal || "(none)");
+    const escapedVideoTitle = escapeHtml(meta.title || "(unknown video)");
 
     if (verdict === "borderline") {
       await renderOverlay(`
         <div class="ig-card">
           <h2 class="ig-title">Borderline relevance</h2>
-          <p class="ig-copy">Is this worth your time for your goal?<br/><strong>Goal:</strong> ${state.activeSession.learnAnswers.goal || "(none)"}<br/>BGE score: ${semanticBge.semanticScore.toFixed(3)}</p>
+          <p class="ig-copy">Is this worth your time for your goal: <strong>${escapedGoal}</strong>?<br/>Video: <strong>${escapedVideoTitle}</strong><br/>Relevance score: ${semanticBge.semanticScore.toFixed(3)}</p>
           <div class="ig-actions">
             <button id="ig-continue" class="ig-btn ig-btn-primary">Continue anyway</button>
-            <button id="ig-feedback-allow" class="ig-btn">Should have allowed</button>
-            <button id="ig-feedback-block" class="ig-btn">Should have blocked</button>
+            <button id="ig-borderline-back" class="ig-btn">Go back</button>
           </div>
         </div>
       `, "intent-guard-borderline");
@@ -1731,59 +1943,32 @@
         // await approveCurrentVideo(videoId);
         unmuteAndResumeMedia();
       });
-      document.getElementById("ig-feedback-allow")?.addEventListener("click", async () => {
-        await logCalibration({
-          videoId,
-          semanticScore: activeSemantic.semanticScore,
-          semanticScores: { activeSource: "bge-strict", bge: semanticBge.semanticScore, embedding: semanticEmbedding.semanticScore, legacy: semanticLegacy.semanticScore },
-          verdict,
-          userFeedback: "should_allow"
-        });
-        // NOTE: allowlist functionality is temporarily disabled.
-        // await approveCurrentVideo(videoId);
-        removeOverlay("intent-guard-borderline");
-        unmuteAndResumeMedia();
-      });
-      document.getElementById("ig-feedback-block")?.addEventListener("click", async () => {
-        await logCalibration({
-          videoId,
-          semanticScore: activeSemantic.semanticScore,
-          semanticScores: { activeSource: "bge-strict", bge: semanticBge.semanticScore, embedding: semanticEmbedding.semanticScore, legacy: semanticLegacy.semanticScore },
-          verdict,
-          userFeedback: "should_block"
-        });
-      });
+      document.getElementById("ig-borderline-back")?.addEventListener("click", handleGoBackNavigation);
       clearReloadFallbackTimer();
+      markDecisionApplied(videoId, verdict, {
+        sessionId: activeSessionId,
+        sessionSignature: activeSessionSignature
+      });
       return;
     }
 
     await renderOverlay(`
       <div class="ig-card">
         <h2 class="ig-title">This video looks off-topic</h2>
-        <p class="ig-copy"><strong>Goal:</strong> ${state.activeSession.learnAnswers.goal || "(none)"}<br/>Choose content that better aligns with your learning intent.<br/>BGE score: ${semanticBge.semanticScore.toFixed(3)}</p>
+        <p class="ig-copy"><strong>Goal:</strong> ${escapedGoal}<br/>Choose content that better aligns with your learning intent.<br/>Relevance score: ${semanticBge.semanticScore.toFixed(3)}</p>
         <div class="ig-actions">
-          <button id="ig-feedback-allow2" class="ig-btn">This should be allowed</button>
           <button id="ig-back" class="ig-btn ig-btn-primary">Go back</button>
         </div>
       </div>
     `);
     if (isStaleRun()) return;
 
-    document.getElementById("ig-feedback-allow2")?.addEventListener("click", async () => {
-      await logCalibration({
-        videoId,
-        semanticScore: activeSemantic.semanticScore,
-        semanticScores: { activeSource: "bge-strict", bge: semanticBge.semanticScore, embedding: semanticEmbedding.semanticScore, legacy: semanticLegacy.semanticScore },
-        verdict,
-        userFeedback: "should_allow"
-      });
-      // NOTE: allowlist functionality is temporarily disabled.
-      // await approveCurrentVideo(videoId);
-      removeOverlay();
-      unmuteAndResumeMedia();
-    });
     document.getElementById("ig-back")?.addEventListener("click", handleGoBackNavigation);
     clearReloadFallbackTimer();
+    markDecisionApplied(videoId, verdict, {
+      sessionId: activeSessionId,
+      sessionSignature: activeSessionSignature
+    });
   }
 
   function attachSpaListeners() {
@@ -1806,6 +1991,17 @@
       return out;
     };
   }
+
+  chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
+    if (message?.type !== "RELAX_SESSION_EXPIRED") return false;
+
+    (async () => {
+      const result = await showExpiredRelaxSessionNow(message.payload?.session || null);
+      sendResponse(result);
+    })();
+
+    return true;
+  });
 
   attachSpaListeners();
   scheduleNavigationEvaluation("initial", 30);

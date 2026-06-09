@@ -4,8 +4,9 @@ const send = (type, payload = {}) =>
 let debugPollTimer = null;
 let activeSession = null;
 
-const STRICT_MIN = 0.05;
-const STRICT_MAX = 0.2;
+const STRICT_MIN = 0.55;
+const STRICT_MAX = 0.65;
+const BORDERLINE_OFFSET = 0.05;
 const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
 
 function clamp(n, min, max) {
@@ -27,7 +28,7 @@ function renderStrictnessSummary(relevantMin) {
   const el = document.getElementById("strictness-summary");
   if (!el) return;
   const rel = Number(relevantMin).toFixed(3);
-  const border = Number((Number(relevantMin) * 0.5).toFixed(3)).toFixed(3);
+  const border = Number((Number(relevantMin) - BORDERLINE_OFFSET).toFixed(3)).toFixed(3);
   el.textContent = `Relevant cutoff: ${rel} · Borderline cutoff: ${border}`;
 }
 
@@ -36,7 +37,7 @@ async function loadEvaluationSettings() {
   const settings = res?.state?.settings || {};
   const reloadSec = (Number(settings.reloadFallbackAfterMs) || 3000) / 1000;
   const timeoutSec = (Number(settings.metaGateTimeoutMs) || 5000) / 1000;
-  const relevantMin = Number(settings.semanticRelevantMin) || 0.08;
+  const relevantMin = Number(settings.semanticRelevantMin) || 0.6;
 
   const reloadInput = document.getElementById("reload-wait-seconds");
   const timeoutInput = document.getElementById("meta-timeout-seconds");
@@ -69,7 +70,23 @@ function value(id) {
 
 function setValue(id, value = "") {
   const el = document.getElementById(id);
-  if (el) el.value = value ?? "";
+  if (el) {
+    el.value = value ?? "";
+    autoGrowTextarea(el);
+  }
+}
+
+function autoGrowTextarea(el) {
+  if (!(el instanceof HTMLTextAreaElement)) return;
+  el.style.height = "auto";
+  el.style.height = `${el.scrollHeight}px`;
+}
+
+function bindAutoGrowTextareas(root = document) {
+  root.querySelectorAll("textarea").forEach((el) => {
+    autoGrowTextarea(el);
+    el.addEventListener("input", () => autoGrowTextarea(el));
+  });
 }
 
 function setHidden(id, hidden) {
@@ -80,6 +97,57 @@ function setHidden(id, hidden) {
 function setCardTitle(cardId, text) {
   const title = document.querySelector(`#${cardId} h2`);
   if (title) title.textContent = text;
+}
+
+function escapeHtml(text = "") {
+  return String(text ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function renderSessionDetail(label, value) {
+  const normalized = String(value ?? "").trim();
+  if (!normalized) return "";
+  return `
+    <div class="session-detail">
+      <div class="session-detail-label">${escapeHtml(label)}</div>
+      <div class="session-detail-value">${escapeHtml(normalized)}</div>
+    </div>
+  `;
+}
+
+function renderActiveSessionDetails(session) {
+  const details = document.getElementById("active-session-details");
+  if (!details) return;
+
+  if (!session) {
+    details.innerHTML = "";
+    return;
+  }
+
+  if (session.mode === "learn") {
+    details.innerHTML = [
+      renderSessionDetail("Topic(s)", session.learnAnswers?.topic),
+      renderSessionDetail("Goal", session.learnAnswers?.goal),
+      renderSessionDetail("Purpose", session.learnAnswers?.purposeReflection),
+      renderSessionDetail("Timing", session.learnAnswers?.timingReflection)
+    ].join("");
+    return;
+  }
+
+  const minsLeft = Math.max(0, Math.round((session.endTime - Date.now()) / 60_000));
+  details.innerHTML = [
+    renderSessionDetail("Time remaining", `${minsLeft} min`),
+    renderSessionDetail("Current feeling", session.relaxAnswers?.currentFeel),
+    renderSessionDetail("Desired feeling", session.relaxAnswers?.desiredFeel),
+    renderSessionDetail("What else can help now", session.relaxAnswers?.alternativesNow),
+    renderSessionDetail("Post-session commitment", session.relaxAnswers?.tomorrowNeed),
+    renderSessionDetail("Duration", `${session.relaxAnswers?.durationMinutes || ""} min`),
+    renderSessionDetail("Why this length", session.relaxAnswers?.durationWhy)
+  ].join("");
 }
 
 function nonWhitespaceLength(text = "") {
@@ -124,7 +192,7 @@ function validateRelaxPayload(payload) {
     ["currentFeel", "relax-current", "how you currently feel"],
     ["desiredFeel", "relax-want", "how you want to feel"],
     ["alternativesNow", "relax-other", "what else can help you now"],
-    ["tomorrowNeed", "relax-tomorrow", "what you need to do to make sure you feel good tomorrow"],
+    ["tomorrowNeed", "relax-tomorrow", "what you are going to do after this relax session and why it is important to follow through"],
     ["durationWhy", "relax-why", "why this is the right length for you"]
   ];
 
@@ -139,13 +207,6 @@ function validateRelaxPayload(payload) {
   }
 
   return { ok: true };
-}
-
-function formatRemainingTime(endTime) {
-  const remainingMs = Math.max(0, Number(endTime || 0) - Date.now());
-  const minutes = Math.ceil(remainingMs / 60_000);
-  if (minutes <= 0) return "Time remaining: less than 1 min";
-  return `Time remaining: ${minutes} min`;
 }
 
 function buildLearnPayload() {
@@ -198,6 +259,7 @@ function renderDebugPanel(data) {
   const previous = cur.previous || {};
   const current = cur.current || {};
   const checks = cur.checks || {};
+  const lastEventChecks = lastEvent?.checks || {};
 
   panel.textContent = [
     `type: ${cur.type || ""}`,
@@ -231,6 +293,20 @@ function renderDebugPanel(data) {
     `descriptionReady: ${checks.descriptionReady ?? ""}`,
     `objectIdMatches: ${checks.objectIdMatches ?? ""}`,
     `attempt: ${checks.attempt ?? ""}`,
+    `skipReason: ${checks.skipReason ?? ""}`,
+    `elapsedSinceAppliedDecision: ${checks.elapsedSinceAppliedDecision ?? ""}`,
+    `appliedDecisionLockVideoId: ${checks.appliedDecisionLockVideoId ?? ""}`,
+    `appliedDecisionLockVerdict: ${checks.appliedDecisionLockVerdict ?? ""}`,
+    `appliedDecisionLockSessionId: ${checks.appliedDecisionLockSessionId ?? ""}`,
+    `activeSessionId: ${checks.activeSessionId ?? ""}`,
+    "",
+    "[LAST EVENT CHECKS]",
+    `skipReason: ${lastEventChecks.skipReason ?? ""}`,
+    `elapsedSinceAppliedDecision: ${lastEventChecks.elapsedSinceAppliedDecision ?? ""}`,
+    `appliedDecisionLockVideoId: ${lastEventChecks.appliedDecisionLockVideoId ?? ""}`,
+    `appliedDecisionLockVerdict: ${lastEventChecks.appliedDecisionLockVerdict ?? ""}`,
+    `appliedDecisionLockSessionId: ${lastEventChecks.appliedDecisionLockSessionId ?? ""}`,
+    `activeSessionId: ${lastEventChecks.activeSessionId ?? ""}`,
     "",
     `sourceVideoId: ${cur.sourceVideoId || ""}`,
     `pageUrl: ${cur.pageUrl || ""}`,
@@ -361,10 +437,11 @@ async function refreshStatus() {
 
   if (!session) {
     status.textContent = "No active session";
+    setHidden("active-session-card", true);
+    renderActiveSessionDetails(null);
     setHidden("learn-card", false);
     setHidden("relax-card", false);
     setHidden("relax-duration-field", false);
-    setHidden("relax-time-remaining", true);
     setCardTitle("learn-card", "Start Learn Session");
     setCardTitle("relax-card", "Start Relax Session");
     const learnButton = document.getElementById("start-learn");
@@ -376,33 +453,17 @@ async function refreshStatus() {
 
   if (session.mode === "learn") {
     status.textContent = `Active Learn session: ${session.learnAnswers.topic}`;
-    setHidden("learn-card", false);
+    setHidden("active-session-card", false);
+    renderActiveSessionDetails(session);
+    setHidden("learn-card", true);
     setHidden("relax-card", true);
-    setCardTitle("learn-card", "Edit Learn Session");
-    const learnButton = document.getElementById("start-learn");
-    if (learnButton) learnButton.textContent = "Save Changes";
-    setValue("learn-topic", session.learnAnswers?.topic || "");
-    setValue("learn-goal", session.learnAnswers?.goal || "");
-    setValue("learn-purpose", session.learnAnswers?.purposeReflection || "");
-    setValue("learn-timing", session.learnAnswers?.timingReflection || "");
   } else {
     const minsLeft = Math.max(0, Math.round((session.endTime - Date.now()) / 60_000));
     status.textContent = `Active Relax session: ${minsLeft} min left`;
+    setHidden("active-session-card", false);
+    renderActiveSessionDetails(session);
     setHidden("learn-card", true);
-    setHidden("relax-card", false);
-    setHidden("relax-duration-field", true);
-    setHidden("relax-time-remaining", false);
-    setCardTitle("relax-card", "Edit Relax Session");
-    const relaxButton = document.getElementById("start-relax");
-    const remaining = document.getElementById("relax-time-remaining");
-    if (relaxButton) relaxButton.textContent = "Save Changes";
-    if (remaining) remaining.textContent = formatRemainingTime(session.endTime);
-    setValue("relax-current", session.relaxAnswers?.currentFeel || "");
-    setValue("relax-want", session.relaxAnswers?.desiredFeel || "");
-    setValue("relax-other", session.relaxAnswers?.alternativesNow || "");
-    setValue("relax-tomorrow", session.relaxAnswers?.tomorrowNeed || "");
-    setValue("relax-duration", session.relaxAnswers?.durationMinutes || "");
-    setValue("relax-why", session.relaxAnswers?.durationWhy || "");
+    setHidden("relax-card", true);
   }
 }
 
@@ -414,7 +475,7 @@ document.getElementById("start-learn")?.addEventListener("click", async () => {
     return;
   }
   clearPopupError();
-  const res = await send(activeSession?.mode === "learn" ? "UPDATE_ACTIVE_SESSION" : "START_SESSION", payload);
+  const res = await send("START_SESSION", payload);
   if (!res?.ok) {
     showPopupError(res?.error || "Could not save Learn session.");
     return;
@@ -423,15 +484,14 @@ document.getElementById("start-learn")?.addEventListener("click", async () => {
 });
 
 document.getElementById("start-relax")?.addEventListener("click", async () => {
-  const editingRelax = activeSession?.mode === "relax";
-  const payload = buildRelaxPayload({ includeDuration: !editingRelax });
+  const payload = buildRelaxPayload();
   const validation = validateRelaxPayload(payload);
   if (!validation.ok) {
     showPopupError(validation.message, validation.fieldId);
     return;
   }
   clearPopupError();
-  const res = await send(editingRelax ? "UPDATE_ACTIVE_SESSION" : "START_SESSION", payload);
+  const res = await send("START_SESSION", payload);
   if (!res?.ok) {
     showPopupError(res?.error || "Could not save Relax session.");
     return;
@@ -440,9 +500,14 @@ document.getElementById("start-relax")?.addEventListener("click", async () => {
 });
 
 document.getElementById("end-session")?.addEventListener("click", async () => {
-  await send("END_SESSION", {
+  clearPopupError();
+  const res = await send("END_SESSION", {
     completionCheck: { note: "Ended manually from popup." }
   });
+  if (!res?.ok) {
+    showPopupError(res?.error || "Could not end session.");
+    return;
+  }
   await send("CLEAR_EVAL_DEBUG_LOGS");
   await refreshEvalDebug();
   await refreshStatus();
@@ -462,6 +527,7 @@ document.getElementById("strictness-slider")?.addEventListener("input", (e) => {
 refreshStatus();
 refreshEvalDebug();
 loadEvaluationSettings();
+bindAutoGrowTextareas();
 debugPollTimer = setInterval(refreshEvalDebug, 350);
 window.addEventListener("beforeunload", () => {
   if (debugPollTimer) clearInterval(debugPollTimer);

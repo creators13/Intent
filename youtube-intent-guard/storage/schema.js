@@ -4,8 +4,8 @@
     sessionHistory: [],
     settings: {
       warnings: [15, 10, 5, 1],
-      semanticBorderlineMin: 0.04,
-      semanticRelevantMin: 0.08,
+      semanticBorderlineMin: 0.55,
+      semanticRelevantMin: 0.6,
       reloadFallbackAfterMs: 3000,
       metaGateTimeoutMs: 5000,
       calibrationMinSamples: 25
