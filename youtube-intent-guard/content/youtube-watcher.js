@@ -19,6 +19,7 @@
   let expiredRelaxFullscreenHandlerBound = false;
   const autoPausedMedia = new WeakSet();
   let appliedDecisionLock = null;
+  let relevanceLoadingOverlayVisible = false;
   const DEFAULT_RELOAD_FALLBACK_AFTER_MS = 3000;
   const DEFAULT_META_GATE_TIMEOUT_MS = 5000;
   const RELAX_TEXT_MIN_NON_WHITESPACE = 10;
@@ -247,6 +248,9 @@
 
   function removeOverlay(id = "intent-guard-overlay") {
     document.getElementById(id)?.remove();
+    if (id === "intent-guard-loading") {
+      relevanceLoadingOverlayVisible = false;
+    }
   }
 
   function clearAllGuardOverlays() {
@@ -256,10 +260,6 @@
     removeOverlay("intent-guard-borderline");
     removeOverlay("intent-guard-session-modal");
     removeOverlay("intent-guard-expired-relax");
-  }
-
-  function clearTransientEvaluationOverlays() {
-    removeOverlay("intent-guard-loading");
   }
 
   function pauseAndMuteMedia() {
@@ -1070,6 +1070,15 @@
     }
   }
 
+  async function commitLastEvaluatedSnapshot(videoId, meta) {
+    lastEvaluatedSnapshot = {
+      videoId,
+      title: meta.title,
+      description: meta.description
+    };
+    await setPersistedLastSnapshot(lastEvaluatedSnapshot);
+  }
+
   function simpleHash(text = "") {
     let h = 2166136261;
     const s = String(text || "");
@@ -1082,6 +1091,21 @@
 
   function clearLoadingOverlay() {
     removeOverlay("intent-guard-loading");
+  }
+
+  async function showRelevanceLoadingOverlay() {
+    if (relevanceLoadingOverlayVisible || document.getElementById("intent-guard-loading")) {
+      relevanceLoadingOverlayVisible = true;
+      return;
+    }
+
+    relevanceLoadingOverlayVisible = true;
+    await renderOverlay(`
+      <div class="ig-card">
+        <h2 class="ig-title">Checking relevance…</h2>
+        <p class="ig-copy">Comparing this video to your learning goal.</p>
+      </div>
+    `, "intent-guard-loading");
   }
 
   async function waitForNavigationStability(targetVideoId, previousSnapshot, timeoutMs = 7000, debugCtx = null, shouldAbort = null) {
@@ -1428,12 +1452,6 @@
         }
       : null;
 
-    // Defensive cleanup: each new run may clear transient evaluation UI, but
-    // must not erase persistent decision blockers before a replacement verdict
-    // is ready. Otherwise follow-up YouTube SPA events can briefly show and
-    // immediately remove off-topic/borderline blockers.
-    clearTransientEvaluationOverlays();
-
     if (!isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "coord-abort-not-active", runId, reason, coordinatorId, targetUrl, phase: "aborted" });
       return;
@@ -1606,16 +1624,9 @@
 
     pauseAndMuteMedia();
     pausedByThisRun = true;
-    await renderOverlay(`
-      <div class="ig-card">
-        <h2 class="ig-title">Checking relevance…</h2>
-        <p class="ig-copy">Comparing this video to your learning goal.</p>
-      </div>
-    `, "intent-guard-loading");
+    await showRelevanceLoadingOverlay();
     if (isStaleRun() || !isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "abort-stale-run-after-loading", runId, reason, targetUrl, targetVideoId: videoId });
-      clearLoadingOverlay();
-      restoreMediaIfPausedByThisRun();
       return;
     }
 
@@ -1647,14 +1658,10 @@
     }, () => isStaleRun() || !isActiveCoordinator(coordinatorId) || isCancelledByWinner());
     if (meta?.abortedByWinner || isCancelledByWinner()) {
       await emitEvalDebug({ type: "run-cancelled-after-winner", runId, reason, targetUrl, targetVideoId: videoId, coordinatorId });
-      clearLoadingOverlay();
-      restoreMediaIfPausedByThisRun();
       return;
     }
     if (isStaleRun() || !isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "abort-stale-run-after-meta", runId, reason, targetUrl, targetVideoId: videoId });
-      clearLoadingOverlay();
-      restoreMediaIfPausedByThisRun();
       return;
     }
 
@@ -1727,23 +1734,14 @@
       return;
     }
 
+    clearReloadFallbackTimer();
+
     if (!isActiveCoordinator(coordinatorId)) {
-      await emitEvalDebug({ type: "coord-abort-before-snapshot-write", runId, reason, coordinatorId, targetUrl, phase: "aborted" });
+      await emitEvalDebug({ type: "coord-abort-before-scoring", runId, reason, coordinatorId, targetUrl, phase: "aborted" });
       clearLoadingOverlay();
       restoreMediaIfPausedByThisRun();
       return;
     }
-
-    // Owner-token guard: only the currently active coordinator is allowed to
-    // write the "lastEvaluatedSnapshot" baseline used by future comparisons.
-    // Accessible mental model: the latest coordinator is the "designated note taker".
-    // Older coordinators may still finish async work, but they cannot overwrite the notes.
-    lastEvaluatedSnapshot = {
-      videoId,
-      title: meta.title,
-      description: meta.description
-    };
-    await setPersistedLastSnapshot(lastEvaluatedSnapshot);
 
     const intentText = getIntentText(state.activeSession);
     const videoText = IntentGuardRelevance.buildVideoText(meta);
@@ -1787,11 +1785,46 @@
           <p class="ig-copy">BGE semantic engine is unavailable in strict validation mode, so this video is blocked by policy. Please initialize BGE and try again.</p>
         </div>
       `);
+      if (isStaleRun() || !isActiveCoordinator(coordinatorId)) return;
       clearReloadFallbackTimer();
       restoreMediaIfPausedByThisRun();
       markDecisionApplied(videoId, "blocked-bge-unavailable", {
         sessionId: activeSessionId,
         sessionSignature: activeSessionSignature
+      });
+      await emitEvalDebug({
+        type: "evaluation-complete",
+        runId,
+        reason,
+        targetUrl,
+        targetVideoId: videoId,
+        current: { url: targetUrl, videoId, title: meta.title, description: meta.description },
+        previous: previousSnapshotAtRunStart
+          ? {
+              url: `https://www.youtube.com/watch?v=${previousSnapshotAtRunStart.videoId}`,
+              videoId: previousSnapshotAtRunStart.videoId,
+              title: previousSnapshotAtRunStart.title,
+              description: previousSnapshotAtRunStart.description
+            }
+          : null,
+        verdict: "blocked-bge-unavailable",
+        decisionApplied: true,
+        decisionSurface: "blocked-overlay",
+        semanticScore: null,
+        semanticScores: {
+          activeSource: "bge-strict",
+          bge: null,
+          embedding: null,
+          legacy: null
+        },
+        snapshotOrigin,
+        baselineWriteReason: meta?.baselineWriteReason || "strict-pass",
+        sourceStrength: meta?.sourceStrength || getSourceStrength(meta || {}),
+        checks: {
+          strictBgeOnlyMode,
+          hasIntentGuardBGE: !!globalThis.IntentGuardBGE,
+          hasScoreFunction: typeof globalThis.IntentGuardBGE?.scoreIntentVsVideo === "function"
+        }
       });
       return;
     }
@@ -1812,8 +1845,7 @@
       : String(videoText || "").trim();
     const intentHash = simpleHash(intentTextNormalized);
     const videoHash = simpleHash(videoTextNormalized);
-    await emitEvalDebug({
-      type: "evaluation-complete",
+    const evaluationDecisionPayload = {
       runId,
       reason,
       targetUrl,
@@ -1855,11 +1887,21 @@
         descriptionSource: meta.descriptionSource || "",
         descriptionConfidence: meta.descriptionConfidence || "unknown"
       }
+    };
+    await emitEvalDebug({
+      type: "evaluation-scored",
+      ...evaluationDecisionPayload
     });
+    const emitAppliedDecisionComplete = async (decisionSurface) => {
+      await emitEvalDebug({
+        type: "evaluation-complete",
+        ...evaluationDecisionPayload,
+        decisionApplied: true,
+        decisionSurface
+      });
+    };
     if (isStaleRun() || !isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "abort-stale-run-after-scoring", runId, reason, targetUrl, targetVideoId: videoId });
-      clearLoadingOverlay();
-      restoreMediaIfPausedByThisRun();
       return;
     }
 
@@ -1903,8 +1945,6 @@
     });
     if (isStaleRun() || !isActiveCoordinator(coordinatorId)) {
       await emitEvalDebug({ type: "abort-stale-run-after-calibration-log", runId, reason, targetUrl, targetVideoId: videoId });
-      clearLoadingOverlay();
-      restoreMediaIfPausedByThisRun();
       return;
     }
 
@@ -1918,6 +1958,8 @@
         sessionId: activeSessionId,
         sessionSignature: activeSessionSignature
       });
+      await emitAppliedDecisionComplete("allowed");
+      await commitLastEvaluatedSnapshot(videoId, meta);
       return;
     }
 
@@ -1935,7 +1977,7 @@
           </div>
         </div>
       `, "intent-guard-borderline");
-      if (isStaleRun()) return;
+      if (isStaleRun() || !isActiveCoordinator(coordinatorId)) return;
 
       document.getElementById("ig-continue")?.addEventListener("click", () => removeOverlay("intent-guard-borderline"));
       document.getElementById("ig-continue")?.addEventListener("click", async () => {
@@ -1949,6 +1991,8 @@
         sessionId: activeSessionId,
         sessionSignature: activeSessionSignature
       });
+      await emitAppliedDecisionComplete("borderline-overlay");
+      await commitLastEvaluatedSnapshot(videoId, meta);
       return;
     }
 
@@ -1961,7 +2005,7 @@
         </div>
       </div>
     `);
-    if (isStaleRun()) return;
+    if (isStaleRun() || !isActiveCoordinator(coordinatorId)) return;
 
     document.getElementById("ig-back")?.addEventListener("click", handleGoBackNavigation);
     clearReloadFallbackTimer();
@@ -1969,6 +2013,8 @@
       sessionId: activeSessionId,
       sessionSignature: activeSessionSignature
     });
+    await emitAppliedDecisionComplete("blocked-overlay");
+    await commitLastEvaluatedSnapshot(videoId, meta);
   }
 
   function attachSpaListeners() {
