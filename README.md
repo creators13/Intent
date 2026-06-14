@@ -2,7 +2,7 @@
 
 ![Thread logo](Thread.png)
 
-A Chrome/Edge Manifest V3 extension to enforce intentional YouTube use.
+A personal project when I realized that I was spending more time than I wanted on YouTube, but I didn't want to cut myself off from such a powerful tool. So I made a Chrome/Edge Manifest V3 extension to enforce intentional YouTube use. Feedback is welcome and appreciated!
 
 ## Core Features
 - Blocks YouTube when no session is active
