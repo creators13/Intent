@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Thread — Focus for YouTube",
   "description": "Intentional YouTube sessions for learning and relaxing with boundaries.",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "permissions": ["storage", "tabs", "alarms", "notifications"],
   "host_permissions": ["https://www.youtube.com/*"],
   "background": {
