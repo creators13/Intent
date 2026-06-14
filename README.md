@@ -1,6 +1,6 @@
 # Thread — Focus for YouTube
 
-![Thread logo](assets/Thread.png)
+![Thread logo](Thread.png)
 
 A Chrome/Edge Manifest V3 extension to enforce intentional YouTube use.
 
